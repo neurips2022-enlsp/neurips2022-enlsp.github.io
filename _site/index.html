@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <meta name="keywords" content="NLP, KD,knowledge distillation,workshop,natural language processing,deep learning,machine learning,neurips workshop,ENLSP 2021,ENLSP,model compression,Efficient Natural Language and Speech Processing,tinyML,BERT,tinyBERT,roberta,distilRoberta,distilBERT,knowledge transfer,efficient knowledge transfer,speech,pre-trained language models,language models,GPT,GPT compression,optimization,speech processing,speech optimization,Multi-domain training,fast pre-training,multimodal,Efficient Training,Data Efficiency,Edge Intelligence,zero-shot learning,few-shot learning,data augumentation,NEURIPS,neurips 2021,NIPS">
+  <meta name="google-site-verification" content="2FYQh4GH2FAIelCcPu2MkMhMqFo76u69G5uxcopfuC8" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ENLSP NeurIPS Workshop 2022 | ENLSP highlights some fundamental problems in NLP and speech processing related to efficiency of the models, training and inference for the general ML and DL communities.</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="ENLSP NeurIPS Workshop 2022" />
+<meta name="author" content="ENLSP NeurIPS Workshop 2022" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ENLSP highlights some fundamental problems in NLP and speech processing related to efficiency of the models, training and inference for the general ML and DL communities." />
+<meta property="og:description" content="ENLSP highlights some fundamental problems in NLP and speech processing related to efficiency of the models, training and inference for the general ML and DL communities." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="ENLSP NeurIPS Workshop 2022" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ENLSP NeurIPS Workshop 2022" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"ENLSP NeurIPS Workshop 2022"},"description":"ENLSP highlights some fundamental problems in NLP and speech processing related to efficiency of the models, training and inference for the general ML and DL communities.","headline":"ENLSP NeurIPS Workshop 2022","name":"ENLSP NeurIPS Workshop 2022","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ENLSP NeurIPS Workshop 2022" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ENLSP 2022</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+				</li>
+            
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="/index.html#overview">Overview</a>
+				</li>
+            
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="/index.html#call_for_papers">Call for papers</a>
+				</li>
+            
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="/index.html#organizers">Organizers</a>
+				</li>
+            
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="/index.html#speakers">Speakers</a>
+				</li>
+            
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="/index.html#schedule">Schedule</a>
+				</li>
+            
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="/index.html#technical_committee">Technical committee</a>
+				</li>
+            
+        
+            
+            
+            
+				<li class="nav-item">
+				  <a class="nav-link " aria-current="page" href="https://neurips2021-nlp.github.io/">ENLSP2021</a>
+				</li>
+            
+        
+		
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><div id="banner">
+	<center>
+	<h2 class="blackpar_title">The 2<sup>nd</sup> workshop on<br />Efficient Natural Language and Speech Processing (ENLSP)</h2>
+	<h3 class="blackpar_title">(Models, Training and Inference)</h3>
+	</center>
+</div>
+
+<p>
+This workshop aims at introducing some fundamental problems in the field of natural language and speech processing which can be of interest to the general machine learning and deep learning community to improve the efficiency of the models, their training and inference. The workshop program offers an interactive platform for gathering experts and talents from academia and industry through different invited keynote talks, panel discussions, paper submissions and reviews, poster and oral presentations and a mentorship program.
+This will provide an opportunity to discuss and learn from each other, exchange ideas, build connections, and brainstorm on potential solutions and future collaborations. The topics of this workshop can be of interest for people working on general machine learning, deep learning, optimization, theory and NLP &amp; Speech applications.
+
+<br /><br />
+
+<h2 class="blackpar_title" id="overview">Overview</h2>
+<p>
+TBD
+</p>
+
+<!-- Call for Papers -->
+<h2 class="blackpar_title" id="call_for_papers">Call for Papers</h2>
+<p>
+TBD
+</p>
+
+<h2 class="blackpar_title">Submission Instructions</h2>
+<p>
+TBD
+</p>
+
+<h2 class="blackpar_title">Important Dates:</h2>
+<p>
+TBD
+</p>
+
+<!--Confirmed Speakers-->
+<h2 class="blackpar_title" id="speakers">Confirmed Speakers</h2>
+
+
+	
+	<div class="row_perso">
+	
+	
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/song_han.jpeg" alt="Song Han" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Song Han</b>
+					<br />
+					MIT
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/zettlemoyer.jpg" alt="Luke Zettlemoyer" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Luke Zettlemoyer</b>
+					<br />
+					University of Washington / Meta
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/yangyou3.png" alt="You Yang" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />You Yang</b>
+					<br />
+					University of Singapore
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/siva2.jpg" alt="Siva Reddy" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Siva Reddy</b>
+					<br />
+					MILA / Meta
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+	
+	</div>
+
+	
+	<div class="row_perso">
+	
+	
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/jimmy_lin.jpg" alt="Jimmy Lin" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Jimmy Lin</b>
+					<br />
+					University of Waterloo
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/annahuang-photo-Anna-Huang.jpg" alt="Anna Huang" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Anna Huang</b>
+					<br />
+					MILA / Google
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/neubig.jpg" alt="Graham Neubig" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Graham Neubig</b>
+					<br />
+					Carnegie Mellon University
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/Yejin.jpg" alt="Yejin Choi" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Yejin Choi</b>
+					<br />
+					University of Washington
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+	
+	</div>
+
+	
+	<div class="row_perso">
+	
+	
+		
+			
+			<div class="card_perso column_perso" style="margin-left:13%;">
+			  <img src="/images/houlu.jpg" alt="Hou Lu" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Dr.<br />Hou Lu</b>
+					<br />
+					Huawei Noah's Ark Lab
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/Diyi_Yang.jpg" alt="Diyi Yang" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Prof.<br />Diyi Yang</b>
+					<br />
+					Google
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/Tara_Sainath.jpg" alt="Tara Sainath" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Dr.<br />Tara Sainath</b>
+					<br />
+					Google
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+	
+	</div>
+
+
+<h2 class="blackpar_title" id="speakers">Panelists</h2>
+
+
+	
+	<div class="row_perso">
+	
+	
+		
+			
+			<div class="card_perso column_perso" style="margin-left:13%;">
+			  <img src="/images/user.png" alt="Juergen Mueller" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b><br />Juergen Mueller</b>
+					<br />
+					BASF
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/Vikrant_Singh.jfif" alt="Vikrant Singh Tomar" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b><br />Vikrant Singh Tomar</b>
+					<br />
+					Fluent.AI
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/rahul_gupta.jfif" alt="Rahul Gupta" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b><br />Rahul Gupta</b>
+					<br />
+					Amazon Alexa
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+	
+	</div>
+
+	
+	<div class="row_perso">
+	
+	
+		
+			
+			<div class="card_perso column_perso" style="margin-left:13%;">
+			  <img src="/images/Xin_Jiang.jfif" alt="Jiang Xin" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b><br />Jiang Xin</b>
+					<br />
+					Huawei Noah's Ark Lab
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/marjan_ghazvininejad.jfif" alt="Marjan Ghazvininejad" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b><br />Marjan Ghazvininejad</b>
+					<br />
+					Facebook Industrial Panel
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/yu_cheng.jfif" alt="Yu Cheng" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b><br />Yu Cheng</b>
+					<br />
+					Microsoft
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+	
+	</div>
+
+
+<!-- Schedule -->
+<h2 class="blackpar_title" id="schedule">Schedule (EST time zone - New York/Montreal/Toronto)</h2>
+
+
+
+	
+		
+	
+		
+			<div class="modal fade" id="talk_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<b>Title:</b> Continual Learning in Large-Scale Pre-Training
+							<br />
+							<b>Presenter:</b> Xu Sun
+							<br />
+							
+								<b>Bio</b><p class="par_panel_perso">Xu Sun is an Associate Professor in the Department of Computer Science, Peking University. He got Ph.D from The University of Tokyo (2010), advised by Prof. Jun'ichi Tsujii. From 2010 to 2012, he worked at The University of Tokyo, Cornell University, and The Hong Kong Polytechnic University as research fellows. He was a research intern at MSR-Redmond in 2009. His research focuses on natural language processing and machine learning, especially on natural language generation and deep learning for language. He received COLING Best Paper Award 2018. </p>
+							
+							<b>Abstract</b><p class="par_panel_perso">Large-scale pre-training has enabled break-throughs in natural language processing. However, the underlying large-scale models and data make the studies in the field hard to sustain. In this talk, I will introduce our recent work focusing on continual learning in large-scale pre-training to improve the efficiency of pre-trained language models (from ICML 2021, AAAI 2021, etc.). For data-efficient continual learning for PLMs, this talk includes our work on addressing long-tailed data distribution with definitional data and accurate behavioral modifications with low instance-wise side effects by limiting the changed parameters. For cost-effective searching of PLM architecture, I will introduce our training-free neural architecture search method based on the gram matrix of instance gradients that can find better fine-tuning architecture of PLMs. Continual Learning has vast opportunities in efficient PLMs learning and applications and new challenges are there to be resolved. </p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	
+		
+	
+		
+			<div class="modal fade" id="talk_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<b>Title:</b> Paper sample
+							<br />
+							<b>Presenter:</b> Author1
+							<br />
+							
+								<b>Authors</b><p class="par_panel_perso">Author1, Author2, Author3 </p>
+							
+							<b>Abstract</b><p class="par_panel_perso">Paper abstract here </p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	
+	<div class="row">
+		<table id="customers">
+			<tr>
+				<th>Time</th>
+				<th colspan="2">Title</th>
+				<th>Presenter</th>
+			</tr>
+			<!-- insert table here -->
+			
+				<tr>
+					<td>08:00 AM - 08:10 AM</td>
+					
+						
+							<td colspan="2">Opening Speech</td>
+						
+						<td>Pascal Poupart</td>
+					
+				</tr>
+			
+				<tr>
+					<td>08:10 AM - 08:30 AM</td>
+					
+						
+							<td>Continual Learning in Large-Scale Pre-Training</td>
+							<td>
+								<center>
+									<a href="" data-bs-toggle="modal" data-bs-target="#talk_2">
+										<i class="bi bi-info-circle" style="font-size: 1.4rem;"></i>
+									</a>
+								</center>
+							</td>
+						
+						<td>Xu Sun</td>
+					
+				</tr>
+			
+				<tr>
+					<td>08:30 AM - 08:40 AM</td>
+					
+						<td colspan="3">Break</td>
+					
+				</tr>
+			
+				<tr>
+					<td>08:40 AM - 08:50 AM</td>
+					
+						
+							<td>Paper sample</td>
+							<td>
+								<center>
+									<a href="" data-bs-toggle="modal" data-bs-target="#talk_4">
+										<i class="bi bi-info-circle" style="font-size: 1.4rem;"></i>
+									</a>
+								</center>
+							</td>
+						
+						<td>Author1</td>
+					
+				</tr>
+			
+			<!-- -->
+		</table>
+	</div>
+
+
+<!-- Organizers -->
+<h2 class="blackpar_title" id="organizers">Organizers</h2>
+
+
+	
+	<div class="row_perso">
+	
+	
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/Mehdi_Rezagholizadeh.jpg" alt="Mehdi Rezagholizadeh" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Mehdi Rezagholizadeh</b>
+					<br />
+					Huawei Noah's Ark Lab
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/peyman_passban.jpg" alt="Peyman Passban" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Peyman Passban</b>
+					<br />
+					Amazon
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/Yue_Dong.jpg" alt="Yue Dong" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Yue Dong</b>
+					<br />
+					University of California
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+			<div class="card_perso column_perso">
+			  <img src="/images/lili_mou.jpg" alt="Lili Mou" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Lili Mou</b>
+					<br />
+					University of Alberta
+				</h6>
+				</center>
+			  </div>
+			</div>
+		
+	
+	</div>
+
+	
+	<div class="row_perso">
+	
+	
+		
+			
+			<div class="card_perso column_perso" style="margin-left:13%;">
+			  <img src="/images/pascal_poupart.jpg" alt="Pascal Poupart" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Pascal Poupart</b>
+					<br />
+					University of Waterloo
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/ali_ghodsi.jpg" alt="Ali Ghodsi" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Ali Ghodsi</b>
+					<br />
+					University of Waterloo
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+			
+			<div class="card_perso column_perso">
+			  <img src="/images/qun_liu.png" alt="Qun Liu" class="img_card_perso" />
+			  <div class="container_perso">
+				<center>
+				<h6>
+					<b>Qun Liu</b>
+					<br />
+					Huawei Noah's Ark Lab
+				</h6>
+				</center>
+			  </div>
+			</div>
+			
+		
+	
+	</div>
+
+
+<h2 class="blackpar_title" id="Organizers">Volunteers</h2>
+<div class="row_perso">
+	<div class="card_perso column_perso justify-content-center" style="margin-left:24%;">
+	  <img src="/images/khalil_bibi.png" alt="Khalil Bibi" class="img_card_perso" />
+	  <div class="container_perso">
+		<center>
+		<h6>
+			<b>Khalil Bibi</b>
+			<br />
+			Huawei Noah's Ark Lab
+		</h6>
+		</center>
+	  </div>
+	</div>
+	<div class="card_perso column_perso">
+	  <img src="/images/anderson_avilla.jpg" alt="Anderson Avilla" class="img_card_perso" />
+	  <div class="container_perso">
+		<center>
+		<h6>
+			<b>Andrson Avilla</b>
+			<br />
+			Huawei Noah's Ark Lab
+		</h6>
+		</center>
+	  </div>
+	</div>
+</div>
+
+
+<br /><br />
+
+<!-- Technical Committee -->
+<h2 class="blackpar_title" id="technical_committee">Technical Committee</h2>
+
+
+<table>
+	<tr>
+		<td>
+			<ul>
+				
+					
+						<li> Pascal Poupart (UoWaterloo) </li>
+					
+				
+					
+						<li> Kevin Duh (Johns Hopkins University) </li>
+					
+				
+					
+						<li> Wulong Liu (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Bang Liu (UoMontreal) </li>
+					
+				
+					
+						<li> Di Jin (Amazon Alexa AI) </li>
+					
+				
+					
+						<li> Hamidreza Mahyar (McMaster University) </li>
+					
+				
+					
+						<li> Lili Mou (UoAlberta) </li>
+					
+				
+					
+						<li> Peyman Passban (Amazon) </li>
+					
+				
+					
+						<li> Prasanna Parthasarathi (McGill &amp; MILA) </li>
+					
+				
+					
+						<li> Vahid Partovi Nia (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Yue Dong (McGill &amp; MILA) </li>
+					
+				
+					
+						<li> Ivan Kobyzev (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Jad Kabbara (McGill &amp; MILA) </li>
+					
+				
+					
+						<li> Aref Jafari (UoWaterloo) </li>
+					
+				
+					
+						<li> Ahmad Rashid (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Shailza Jolly (TU Kaiserslautern) </li>
+					
+				
+					
+						<li> Md. Akmal Haidar (Nuance Communications) </li>
+					
+				
+					
+						<li> Jingjing Xu (ByteDance) </li>
+					
+				
+					
+						<li> Vasileios Lioutas (UoBritish Colombia (UBC)) </li>
+					
+				
+					
+						<li> Anderson R. Avila (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Malik H. Altakrori (McGill &amp; MILA) </li>
+					
+				
+					
+						<li> Ali Vahdat (Thomson Reuters) </li>
+					
+				
+					
+						<li> Fattane Zarrinkalam (Thomson Reuters) </li>
+					
+				
+					
+						<li> Makesh S Narsimhan (McGill &amp; MILA) </li>
+					
+				
+					
+						<li> Borna Jafarpour (Thomson Reuters) </li>
+					
+				
+					
+						<li> Shohreh Shaghaghian (Thomson Reuters) </li>
+					
+				
+					
+						<li> Ehsan Kamalloo (UoAlberta) </li>
+					
+				
+					
+						<li> Ali Saheb Pasand (UoWaterloo) </li>
+					
+				
+					
+						<li> Abbas Ghaddar (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</ul>
+		</td>
+		<td>
+			<ul>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li> Mehrdad Ganjeh (Ernst &amp; Young (EY)) </li>
+					
+				
+					
+						<li> Mingxuan Wang (ByteDance) </li>
+					
+				
+					
+						<li> Tanya Roosta (Amazon) </li>
+					
+				
+					
+						<li> Soheila Samiee (BASF) </li>
+					
+				
+					
+						<li> Yimeng Wu (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Marzieh Tahaei (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Habib Hajimolahoseini (Huawei Technologies) </li>
+					
+				
+					
+						<li> Mohammad Salameh (Huawei Technologies) </li>
+					
+				
+					
+						<li> Kira Aveline Selby (UoWaterloo) </li>
+					
+				
+					
+						<li> Mohammed Senoussaoui (Fluent.ai) </li>
+					
+				
+					
+						<li> M. Sarria-Paja (Universidad Santiago de Cali) </li>
+					
+				
+					
+						<li> Puneeth Saladi (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> Flávio Ávila (Verisk Analytics) </li>
+					
+				
+					
+						<li> Tal Schuster (MIT) </li>
+					
+				
+					
+						<li> Irene Li (Yale) </li>
+					
+				
+					
+						<li> Shentong Mo (Carnegie Mellon University) </li>
+					
+				
+					
+						<li> Alpana Agarwal (Thapar University) </li>
+					
+				
+					
+						<li> Vinay Kumar (Thapar University) </li>
+					
+				
+					
+						<li> Shivani Malhotra (TIET Patiala) </li>
+					
+				
+					
+						<li> Iman Keivanloo (Amazon) </li>
+					
+				
+					
+						<li> Aashiq Muhamed (Amazon) </li>
+					
+				
+					
+						<li> Robert L. Logan IV (UCI University) </li>
+					
+				
+					
+						<li> Patrick Xia (Johns Hopkins University) </li>
+					
+				
+					
+						<li> Moshe Wasserblat (Intel) </li>
+					
+				
+					
+						<li> Guy Boudoukh (Intel) </li>
+					
+				
+					
+						<li> Ankit Chadha (Amazon) </li>
+					
+				
+					
+						<li> Khalil Bibi (Huawei Noah's Ark Lab) </li>
+					
+				
+					
+						<li> David Alfonso Hermelo (Huawei Noah's Ark Lab) </li>
+					
+				
+			</ul>
+		</td>
+	</tr>
+</table>
+<br /><br />
+
+<h2 class="blackpar_title">Sponsor</h2>
+<center>
+	<img src="/images/logos.png" />	
+</center>
+</p>
+
+
+
+  </div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">ENLSP NeurIPS Workshop 2022</li>
+          <li><a class="u-email" href="mailto:neurips.ENLSP.2022@gmail.com">neurips.ENLSP.2022@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>ENLSP highlights some fundamental problems in NLP and speech  processing related to efficiency of the models, training and  inference for the general ML and DL communities.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+
+<!-- Sponsors -->
+<!-- <h2 class="par_title" id="sponsors">Our sponsors</h2> -->
+<!--
+<div class="row">
+  <img class="column" src="/images/huawei.jpg">
+    <img class="column" src="/images/darwin_ai.jpg">
+  <img class="column" src="/images/huawei.jpg">
+    <img class="column" src="/images/darwin_ai.jpg">
+</div>--></div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
