@@ -1,0 +1,16 @@
+- title: Home
+  url: /index.html
+- title: Overview
+  url: /index.html#overview
+- title: Call for papers
+  url: /index.html#call_for_papers
+- title: Organizers
+  url: /index.html#organizers
+- title: Speakers
+  url: /index.html#speakers
+- title: Schedule
+  url: /index.html#schedule 
+- title: Technical committee
+  url: /index.html#technical_committee 
+- title: ENLSP2021
+  url: https://neurips2021-nlp.github.io/

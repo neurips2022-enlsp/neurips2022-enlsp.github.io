@@ -1,1 +1,50 @@
-
+- num_row: 1
+  speakers:
+    - name: Song Han
+      title: Prof.
+      affiliation: MIT
+      photo: song_han.jpeg
+    - name: Luke Zettlemoyer
+      title: Prof.
+      affiliation: University of Washington / Meta
+      photo: zettlemoyer.jpg
+    - name: You Yang
+      title: Prof.
+      affiliation: University of Singapore
+      photo: yangyou3.png
+    - name: Siva Reddy
+      title: Prof.
+      affiliation: MILA / Meta
+      photo: siva2.jpg
+- num_row: 2
+  speakers:
+    - name: Jimmy Lin
+      title: Prof.
+      affiliation: University of Waterloo
+      photo: jimmy_lin.jpg
+    - name: Anna Huang 
+      title: Prof.
+      affiliation: MILA / Google
+      photo: annahuang-photo-Anna-Huang.jpg
+    - name: Graham Neubig 
+      title: Prof.
+      affiliation: Carnegie Mellon University
+      photo: neubig.jpg
+    - name: Yejin Choi
+      title: Prof.
+      affiliation: University of Washington
+      photo: Yejin.jpg
+- num_row: 3
+  speakers:
+    - name: Hou Lu
+      title: Dr.
+      affiliation: Huawei Noah's Ark Lab
+      photo: houlu.jpg
+    - name: Diyi Yang
+      title: Prof.
+      affiliation: Google
+      photo: Diyi_Yang.jpg
+    - name: Tara Sainath
+      title: Dr.
+      affiliation: Google
+      photo: Tara_Sainath.jpg
