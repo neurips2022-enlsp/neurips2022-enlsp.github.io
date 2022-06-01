@@ -16,7 +16,7 @@ layout: home
 
 <p>
 TBD description
-</p>
+
 <br><br>
 
 <h2 class="blackpar_title" id="overview">Overview</h2>
