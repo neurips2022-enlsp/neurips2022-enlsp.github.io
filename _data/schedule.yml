@@ -1,12 +1,12 @@
 - Title: Opening Speech
   Time: 08:00 AM - 08:10 AM
   Presenter: Pascal Poupart
-- Title: Continual Learning in Large-Scale Pre-Training
+- Title: Presentation sample
   Time: 08:10 AM - 08:30 AM
-  Presenter: Xu Sun
+  Presenter: Presenter
   Is_paper: false
-  Bio: Xu Sun is an Associate Professor in the Department of Computer Science, Peking University. He got Ph.D from The University of Tokyo (2010), advised by Prof. Jun'ichi Tsujii. From 2010 to 2012, he worked at The University of Tokyo, Cornell University, and The Hong Kong Polytechnic University as research fellows. He was a research intern at MSR-Redmond in 2009. His research focuses on natural language processing and machine learning, especially on natural language generation and deep learning for language. He received COLING Best Paper Award 2018.
-  Abstract: Large-scale pre-training has enabled break-throughs in natural language processing. However, the underlying large-scale models and data make the studies in the field hard to sustain. In this talk, I will introduce our recent work focusing on continual learning in large-scale pre-training to improve the efficiency of pre-trained language models (from ICML 2021, AAAI 2021, etc.). For data-efficient continual learning for PLMs, this talk includes our work on addressing long-tailed data distribution with definitional data and accurate behavioral modifications with low instance-wise side effects by limiting the changed parameters. For cost-effective searching of PLM architecture, I will introduce our training-free neural architecture search method based on the gram matrix of instance gradients that can find better fine-tuning architecture of PLMs. Continual Learning has vast opportunities in efficient PLMs learning and applications and new challenges are there to be resolved.
+  Bio: this is a bio
+  Abstract: this is an abstract
 - Title: break
   Time: 08:30 AM - 08:40 AM
 - Title: Paper sample
