@@ -16,7 +16,7 @@ layout: home
 
 <p>
 TBD description
-
+</p>
 <br><br>
 
 <h2 class="blackpar_title" id="overview">Overview</h2>
@@ -28,10 +28,10 @@ TBD
 <h2 class="blackpar_title" id="call_for_papers">Call for Papers</h2>
 We encourage the NeurIPS community to submit their solutions, ideas, and ongoing work concerning data, model, training, and inference efficiency for NLP and speech processing. The scope of this workshop includes, but not limited to, the following topics.
 
-<br /><br />
-<b>Efficient Pre-Training and Fine-Tuning.</b> Pre-training is a very expensive process. Even a small modification to the configuration of the models requires the user to redo pre-training:
 <br />
 
+<b>Efficient Pre-Training and Fine-Tuning.</b> Pre-training is a very expensive process. Even a small modification to the configuration of the models requires the user to redo pre-training:
+<br />
 <ul>
 	<li>Fast pre-training techniques, avoiding pre-training from scratch</li>
 	<li>Multi-domain pre-training/fine-tuning and fast domain adaptation for pre-trained/fine tuned models</li>
@@ -41,9 +41,9 @@ We encourage the NeurIPS community to submit their solutions, ideas, and ongoing
 </ul>
 
 <br />
+
 <b>Model Compression.</b> Neural model compression techniques such as quantization, pruning, layer decomposition and knowledge distillation (KD) aim at reducing the number of parameters of the models, improving their memory requirements or running efficiency:
 <br />
-
 <ul>
 	<li>Impact of different compression techniques on the inductive biases learned by the original models</li>
 	<li>Combined compression techniques for more efficient NLP and speech models</li>
@@ -54,6 +54,7 @@ We encourage the NeurIPS community to submit their solutions, ideas, and ongoing
 </ul>
 
 <br />
+
 <b>Efficient Training.</b> How to improve the training speed of the NLP and speech models:
 <br />
 <ul>
@@ -63,6 +64,7 @@ We encourage the NeurIPS community to submit their solutions, ideas, and ongoing
 </ul>
 
 <br />
+
 <b>Data Efficiency.</b> Pre-trained models rely on a huge amount of unlabeled data which makes the training very sample inefficient:
 <br />
 <ul>
@@ -72,6 +74,7 @@ We encourage the NeurIPS community to submit their solutions, ideas, and ongoing
 </ul>
 
 <br />
+
 <b>Edge Intelligence.</b>  Running the trained models on edge devices will require a conversion process to match the network with hardware specifications:
 <br />
 <ul>
@@ -92,18 +95,26 @@ TBD
 
 <!--Confirmed Speakers-->
 <h2 class="blackpar_title" id="speakers">Confirmed Speakers</h2>
+<p>
 {% include speakers.html %}
+</p>
 
 <h2 class="blackpar_title" id="speakers">Panelists</h2>
+<p>
 {% include panelists.html %}
+</p>
 
 <!-- Schedule -->
 <h2 class="blackpar_title" id="schedule">Schedule (EST time zone - New York/Montreal/Toronto)</h2>
+<p>
 {% include schedule.html %}
+</p>
 
 <!-- Organizers -->
 <h2 class="blackpar_title" id="organizers">Organizers</h2>
+<p>
 {% include organizers.html %}
+</p>
 
 <h2 class="blackpar_title" id="Organizers">Volunteers</h2>
 <div class="row_perso">
@@ -138,7 +149,9 @@ TBD
 
 <!-- Technical Committee -->
 <h2 class="blackpar_title" id="technical_committee">Technical Committee</h2>
+<p>
 {% include technical_committee.html %}
+</p>
 <br><br>
 
 <h2 class="blackpar_title">Sponsor</h2>
