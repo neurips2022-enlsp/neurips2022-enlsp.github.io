@@ -1,19 +1,16 @@
 - num_row: 1
   speakers:
-    - name: Juergen Mueller
-      affiliation: BASF
-      photo: user.png
     - name: Vikrant Singh Tomar
       affiliation: Fluent.AI
       photo: Vikrant_Singh.jfif
     - name: Rahul Gupta
       affiliation: Amazon Alexa
       photo: rahul_gupta.jfif
-- num_row: 2
-  speakers:
     - name: Jiang Xin
       affiliation: Huawei Noah's Ark Lab
       photo: Xin_Jiang.jfif
+- num_row: 2
+  speakers:
     - name: Marjan Ghazvininejad 
       affiliation: Facebook Industrial Panel
       photo: marjan_ghazvininejad.jfif
