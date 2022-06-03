@@ -90,7 +90,13 @@ TBD
 
 <h2 class="blackpar_title">Important Dates:</h2>
 <p>
-TBD
+<ul>
+	<li>Submission Deadline: September 22, 2022 AOE</li>
+	<li>Uploading Supplementary Materials: September 25, 2022 AOE</li>
+	<li>Acceptance Notification: October 20, 2022 AOE</li>
+	<li>Camera-Ready Submission: November 1, 2022 AOE</li>
+	<li>Workshop Date: TBD</li>
+</ul>
 </p>
 
 <!--Confirmed Speakers-->
