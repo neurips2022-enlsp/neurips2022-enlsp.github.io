@@ -16,7 +16,8 @@
       title: Prof.
       affiliation: University of Washington / Allen Institute for AI
       photo: Yejin.jpg
--num_row: 2
+- num_row: 2
+  speakers:
     - name: You Yang
       title: Prof.
       affiliation: University of Singapore
@@ -29,7 +30,8 @@
       title: Prof.
       affiliation: MILA / Google
       photo: annahuang-photo-Anna-Huang.jpg
--num_row: 3
+- num_row: 3
+  speakers:
     - name: Siva Reddy
       title: Prof.
       affiliation: McGill & MILA & Meta AI
