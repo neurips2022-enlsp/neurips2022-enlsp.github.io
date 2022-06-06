@@ -7,86 +7,94 @@
 #
 layout: home
 ---
-<div id="banner">
+<div stlye="font-family: 'Source Sans Pro', sans-serif;">
 	<center>
-	<h2 class="blackpar_title">The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
-	<h3 class="blackpar_title">(Models, Training and Inference)</h3>
+		<h2 class="blackpar_title">The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
+		<h3 class="blackpar_title">(Models, Training and Inference)</h3>
 	</center>
 </div>
 
 <p>
-TBD description
+The second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop focuses on fundamental and challenging problems to make natural language and speech processing (especially pre-trained models) more efficient in terms of <b>Data, Model, Training, and Inference</b>. The workshop program offers an interactive platform for gathering different experts and talents from academia and industry through invited talks, panel discussion, paper submissions, reviews, interactive posters, oral presentations and a mentorship program. This will be a unique opportunity to address the efficiency issues of current models, build connections, exchange ideas and brainstorm solutions, and foster future collaborations. The topics of this workshop can be of interest for people working on general machine learning, deep learning, optimization, theory and NLP & Speech applications.
 </p>
-<br><br>
+
+<br>
 
 <h2 class="blackpar_title" id="overview">Overview</h2>
 <p>
-TBD
+Pre-training a general model using self-supervised learning on huge amount of data and then fine-tuning that model on a specific task has become a generic paradigm in solving many natural language and speech processing tasks. Since then, we have had different types of pre-trained models (e.g. encoder-only such as BERT, decoder-only such as GPT, encoder-decoder such as T5) in very diverse range of scales (from millions to
+more than 500 billion parameters) for different tasks.
+<br><br>
+There has been a common practice in the literature to increase the number of parameters of these pre-trained models to improve their performance or their zero/few-shot abilities. Despite the great success of these pre-trained models, it is evident that most of them are largely over-parameterized and their efficiency is under question. Training or deploying these models on devices or even cloud services with limited memory and computational power can be very expensive and challenging. For example, Megatron-Turing with 530B parameters has shown state-of-the-art results in many NLP tasks, but at the cost of using 560 DGX A100 nodes (more than 4000 NVIDIA A100) for training and using more than 300B tokens data. Moreover, delivering such huge models as a service to different clients will require different copies of the model for different tasks. Even fine-tuning the entire large model over a small labeled dataset can lead to overfitting. Therefore, it is of vital importance to invest on future of pre-trained models by enhancing their efficiency in terms of data, modeling, training and inference from different perspectives highlighted in this workshop.
 </p>
-
+<br>
 <!-- Call for Papers -->
 <h2 class="blackpar_title" id="call_for_papers">Call for Papers</h2>
-We encourage the NeurIPS community to submit their solutions, ideas, and ongoing work concerning data, model, training, and inference efficiency for NLP and speech processing. The scope of this workshop includes, but not limited to, the following topics.
+We would like to share some fundamental challenges on improving efficiency of pre- trained models and encourage the NeurIPS community to submit their solutions, ideas, and ongoing work concerning data, model, training, and inference efficiency for NLP and speech processing. The scope of this workshop includes, but not limited to, the following topics:
 
-<br />
-
-<b>Efficient Pre-Training and Fine-Tuning.</b> Pre-training is a very expensive process. Even a small modification to the configuration of the models requires the user to redo pre-training:
-<br />
+<b>Efficient Pre-Training</b> Pre-training is a very expensive process. Even a small modification to the configuration of the models requires the user to redo pre-training.
+<br>
 <ul>
-	<li>Fast pre-training techniques, avoiding pre-training from scratch</li>
-	<li>Multi-domain pre-training/fine-tuning and fast domain adaptation for pre-trained/fine tuned models</li>
-	<li>Multimodal pre-trained (e.g., text--speech) models</li>
-	<li>Avoiding task-specific fine tuning of pre-trained models</li>
+	<li>Accelerating the pre-training process</li>
+	<li>Continual/Life-long pre-training and adapting pre-trained models to a new domain</li>
+	<li>Efficient initialization and hyper-parameter tuning (HPT)</li>
+	<li>Better pre-training self-supervised objectives</li>
+	<li>Multi-domain pre-training</li>
+	<li>Data vs. Scale of pre-trained models</li>
+	<li>Pre-training Multimodal (e.g., text–speech) models</li>
 	<li>New efficient architectures for pre-trained models</li>
 </ul>
 
-<br />
 
-<b>Model Compression.</b> Neural model compression techniques such as quantization, pruning, layer decomposition and knowledge distillation (KD) aim at reducing the number of parameters of the models, improving their memory requirements or running efficiency:
-<br />
+<b>Efficient Fine-tuning</b> Fine-tuning large pre-trained models on downstream tasks can be challenging because pre-trained models are very over-parameterized.
+<br>
 <ul>
-	<li>Impact of different compression techniques on the inductive biases learned by the original models</li>
-	<li>Combined compression techniques for more efficient NLP and speech models</li>
-	<li>Efficient KD for NLP and speech, efficient intermediate layer distillation, and teacher-free distillation</li>
-	<li>Improving KD for large classification problems (e.g., text generation and machine translation with a very large number of output classes)</li>
-	<li>Solving the <i>Capacity Gap</i> problem and the <i>Search Problem</i> associated with finding the best checkpoint of the teacher</li>
-	<li>Theory of KD (e.g., how does KD work?) </li>
+	<li>Parameter-efficient tuning solutions to tune only a portion of the entire network (e.g. adapters)</li>
+	<li>Efficient prompt-based fine-tuning</li>
+	<li>Accelerating the fine-tuning process (e.g. optimizer, and layer-skipping)</li>
+	<li>Efficient federated learning for NLP: reduce the communication costs, tackling heterogeneous data, heterogeneous models.</li>
 </ul>
 
-<br />
 
-<b>Efficient Training.</b> How to improve the training speed of the NLP and speech models:
-<br />
-<ul>
-	<li>Improving the optimizer for faster training</li>
-	<li>Accelerated training of different tasks in NLP and speech</li>
-	<li>Distributed training,  federated learning and continual learning for NLP and speech tasks </li>
-</ul>
-
-<br />
-
-<b>Data Efficiency.</b> Pre-trained models rely on a huge amount of unlabeled data which makes the training very sample inefficient:
-<br />
+<b>Data Efficiency</b> Pre-trained models rely on a huge amount of unlabeled data which makes the training very sample inefficient.
+<br>
 <ul>
 	<li>Sample efficient training, training with less data, few-shot and zero-shot learning</li>
 	<li>Sample efficient data-augmentation, identifying which training samples should be augmented</li>
-	<li>Low-resource NLP and speech, considering training tasks with limited available data</li>
+	<li>Data compression, data distillation</li>
+	<li>Data selection, how to improve the quality of pre-training data</li>
 </ul>
 
-<br />
-
-<b>Edge Intelligence.</b>  Running the trained models on edge devices will require a conversion process to match the network with hardware specifications:
-<br />
+<b>Inference Efficiency</b> How can we reduce the inference time or memory footprint of a trained model for a particular task?
+<br>
 <ul>
-	<li>TinyML for NLP and speech on embedded systems</li>
-	<li>Efficient conversion versus hardware-aware training</li>
-	<li>Training on device</li>
+	<li>Neural model compression techniques such as quantization, pruning, layer decomposition and knowledge distillation (KD) for NLP and Speech</li>
+	<li>Impact of different compression techniques on the inductive biases learned by the original models</li>
+	<li>Combined compression techniques for more efficient NLP and speech models</li>
+	<li>Improving efficiency of KD by removing the teacher</li>
+	<li>Extreme model compression (high compression ratio) for very large pre-trained language models</li>
 </ul>
+
+<b>Other Efficient Applications</b> Pre-trained models are used in many tasks in NLP that efficiency can be their concern.
+<br>
+<ul>
+	<li>Efficient Dense Retrieval</li>
+	<li>Large language model as a service</li>
+	<li>Training models on device</li>
+	<li>Incorporating external knowledge into pre-trained models</li>
+	<li>Unifying different pre-training models</li>
+</ul>
+
+<br>
 
 <h2 class="blackpar_title">Submission Instructions</h2>
 <p>
-TBD
+You are invited to submit your papers in our CMT submission <a href="https://cmt3.research.microsoft.com/ENLSP2021">portal</a>. All the submitted papers have to be anonymous for double-blind review. We expect each paper will be reviewed by at least three reviewers. The content of the paper (excluding the references and supplementary materials) should not be longer than 6 pages, strictly following the NeurIPS template style (which can be found <a href="https://neurips.cc/Conferences/2021/PaperInformation/StyleFiles">here</a>). 
+<br /><br />
+Authors can submit up to 100 MB of supplementary materials separately. Authors are highly encouraged to submit their codes for reproducibility purposes. Although original submissions are preferred, submitted papers can be among your already published or ArXiv papers, and your under submission works. Please make sure to indicate the complete list of conflict of interests for all the authors of your paper. To encourage higher quality submissions, our sponsors are offering the Best Paper Award to qualified outstanding original oral and poster presentations (upon nomination of the reviewers). Bear in mind that our workshop is not archival, but the accepted papers will be hosted on the workshop website.
 </p>
+
+<br>
 
 <h2 class="blackpar_title">Important Dates:</h2>
 <p>
@@ -161,6 +169,14 @@ TBD
 <br><br>
 
 <h2 class="blackpar_title">Sponsor</h2>
-<center>
-	<img src="/images/logos.png">	
-</center>
+<div class="row">
+	<div class="col">
+		<img src="/images/huawei_logo.png" width="250px">
+	</div>
+	<div class="col">
+		<img src="/images/noahs_ark_lab_logo.png" width="250px">
+	</div>
+	<div class="col">
+		<img src="/images/BASF_logo.png" width="250px">
+	</div>
+</div>
