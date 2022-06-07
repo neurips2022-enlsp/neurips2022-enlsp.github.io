@@ -7,13 +7,13 @@
 #
 layout: home
 ---
-<div stlye="font-family: 'Source Sans Pro', sans-serif;">
+<div style="font-family: 'Source Sans Pro', sans-serif;">
 	<center>
-		<h2 class="blackpar_title">The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
+		<h2 class="blackpar_title" >The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
 		<h3 class="blackpar_title">(Models, Training and Inference)</h3>
 	</center>
 </div>
-
+<br>
 <p>
 The second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop focuses on fundamental and challenging problems to make natural language and speech processing (especially pre-trained models) more efficient in terms of <b>Data, Model, Training, and Inference</b>. The workshop program offers an interactive platform for gathering different experts and talents from academia and industry through invited talks, panel discussion, paper submissions, reviews, interactive posters, oral presentations and a mentorship program. This will be a unique opportunity to address the efficiency issues of current models, build connections, exchange ideas and brainstorm solutions, and foster future collaborations. The topics of this workshop can be of interest for people working on general machine learning, deep learning, optimization, theory and NLP & Speech applications.
 </p>
@@ -112,6 +112,7 @@ Authors can submit up to 100 MB of supplementary materials separately. Authors a
 <p>
 {% include speakers.html %}
 </p>
+
 
 <h2 class="blackpar_title" id="speakers">Panelists</h2>
 <p>
