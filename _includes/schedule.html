@@ -35,12 +35,12 @@ TBD
 				<th colspan="2">Title</th>
 				<th>Presenter</th>
 			</tr>
-			<!-- insert table here -->
 			{% for event in schedule %}
 				<tr>
 					<td>{{ event.Time }}</td>
-					{% if event.Title == "break" %}
-						<td colspan='3'>Break</td>
+					
+					{% if event.Whole_line == true%}
+						<td colspan='3'>{{ event.Title }}</td>
 					{% else %}
 						{% if event.Abstract %}
 							<td>{{ event.Title }}</td>
