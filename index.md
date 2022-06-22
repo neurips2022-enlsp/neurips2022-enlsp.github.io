@@ -150,7 +150,7 @@ Authors can submit up to 100 MB of supplementary materials separately. Authors a
 	  <div class="container_perso">
 		<center>
 		<h6>
-			<b>Andrson Avila</b>
+			<b>Anderson Avila</b>
 			<br>
 			Huawei Noah's Ark Lab
 		</h6>
