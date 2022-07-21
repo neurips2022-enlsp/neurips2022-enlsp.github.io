@@ -75,6 +75,15 @@ We would like to share some fundamental challenges on improving efficiency of pr
 	<li>Extreme model compression (high compression ratio) for very large pre-trained language models</li>
 </ul>
 
+<b>Special Track) Efficient Graph Learning for NLP:</b>
+<br>
+<ul>
+	<li>Automatically transforming natural language into graph-structured data</li>
+	<li>Representation learning on multi-relational or heterogeneous graphs</li>
+	<li>Learning the mapping between complex data structures, like Graph2Seq, Graph2Tree, Graph2Graph</li>
+	<li>Graph learning with pre-trained language models</li>
+</ul>
+
 <b>Other Efficient Applications</b> Pre-trained models are used in many tasks in NLP that efficiency can be their concern.
 <br>
 <ul>
