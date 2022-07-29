@@ -1,5 +1,8 @@
 - num_row: 1
   speakers:
+    - name: Mohammad Norouzi
+      affiliation: Google Brain
+      photo: norouzi.jpg
     - name: Vikrant Singh Tomar
       affiliation: Fluent.AI
       photo: Vikrant_Singh.jfif
@@ -17,3 +20,6 @@
     - name: Yu Cheng
       affiliation: Microsoft
       photo: yu_cheng.jfif
+    - name: Jiahao Sun
+      affiliation: RBC
+      photo: Jiahao_Sun.jfif

@@ -1,0 +1,137 @@
+- Title: Opening Speech
+  Time: 08:00 AM - 08:05 AM
+  Whole_line: false
+  Presenter: Pascal Poupart
+  
+- Title: TBD
+  Time: 08:05 AM - 08:45 AM
+  Presenter: Graham Neubig
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+- Title: TBD
+  Time: 08:45 AM - 09:20 AM
+  Presenter: Anna Huang
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+- Title: TBD
+  Time: 09:20 AM - 09:55 AM
+  Presenter: Kenneth Heafield
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+  
+- Title: Break
+  Time: 09:55 AM - 10:10 AM
+  Whole_line: true
+  
+- Title: TBD
+  Time: 10:10 AM - 10:50 AM
+  Presenter: Song Han
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+- Title: TBD
+  Time: 10:50 AM - 11:25 AM
+  Presenter: You Yang
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+- Title: TBD
+  Time: 11:25 AM - 12:00 AM
+  Presenter: Yejin Choi
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+  
+- Title: Lunch & Learn Break
+  Time: 12:00 AM - 01:00 PM
+  Whole_line: true
+
+- Title: Poster Session
+  Time: 12:00 AM - 01:00 PM
+  Whole_line: true
+
+- Title: Paper Spotlight
+  Time: 01:00 PM - 01:05 PM
+  Presenter: TBD
+  Is_paper: true
+  Whole_line: false
+  Authors: TBD
+  Abstract: TBD
+- Title: Paper Spotlight
+  Time: 01:05 PM - 01:10 PM
+  Presenter: TBD
+  Is_paper: true
+  Whole_line: false
+  Authors: TBD
+  Abstract: TBD
+- Title: Paper Spotlight
+  Time: 01:10 PM - 01:15 PM
+  Presenter: TBD
+  Is_paper: true
+  Whole_line: false
+  Authors: TBD
+  Abstract: TBD
+- Title: Paper Spotlight
+  Time: 01:15 PM - 01:20 PM
+  Presenter: TBD
+  Is_paper: true
+  Whole_line: false
+  Authors: TBD
+  Abstract: TBD
+  
+- Title: TBD
+  Time: 01:20 PM - 02:00 PM
+  Presenter: Luke Zettlemoyer
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+- Title: TBD
+  Time: 02:00 PM - 02:35 PM
+  Presenter: Tara Sainath
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+  
+- Title: Break
+  Time: 02:35 PM - 02:45 PM
+  Whole_line: true
+  
+- Title: TBD
+  Time: 02:45 PM - 03:25 PM
+  Presenter: Danqi Chen
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD
+- Title: TBD
+  Time: 03:25 PM - 04:00 PM
+  Presenter: Siva Reddy
+  Is_paper: false
+  Whole_line: false
+  Bio: TBD
+  Abstract: TBD  
+
+- Title: Break
+  Time: 04:00 PM - 04:10 PM
+  Whole_line: true
+  
+- Title: Panel Discussion
+  Time: 04:10 PM - 05:00 PM
+  Presenter: Jiang Xin <br> Rahul Gupta <br> Vikrant Singh <br> Marjan Ghazvininejad <br> Yu Cheng
+  Is_paper: false
+  Whole_line: false  
+  
+- Title: Best Paper and Poster Award & Closing
+  Time: 05:00 PM - 05:10 PM
+  Whole_line: true

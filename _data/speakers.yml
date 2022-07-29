@@ -30,6 +30,10 @@
       title: Prof.
       affiliation: MILA / Google
       photo: annahuang-photo-Anna-Huang.jpg
+    - name: Jimmy Lin
+      title: Prof.
+      affiliation: University of Waterloo
+      photo: jimmy_lin.jpg
 - num_row: 3
   speakers:
     - name: Siva Reddy
@@ -43,4 +47,8 @@
     - name: Danqi Chen
       title: Prof.
       affiliation: Princeton University
-      photo: danqi_2019.jpg        
+      photo: danqi_2019.jpg
+    - name: Lu Hou
+      title: Dr.
+      affiliation: Huawei Noah's Ark Lab
+      photo: houlu.jpg
