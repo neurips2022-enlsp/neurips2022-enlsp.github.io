@@ -6,7 +6,7 @@
       photo: Tara_Sainath.jpg
     - name: Luke Zettlemoyer
       title: Prof.
-      affiliation: University of Washington / Meta
+      affiliation: University of Washington
       photo: zettlemoyer.jpg
     - name: Graham Neubig 
       title: Prof.
@@ -38,7 +38,7 @@
   speakers:
     - name: Siva Reddy
       title: Prof.
-      affiliation: McGill & MILA & Meta AI
+      affiliation: McGill & MILA
       photo: siva2.jpg
     - name: Kenneth Heafield
       title: Prof.
