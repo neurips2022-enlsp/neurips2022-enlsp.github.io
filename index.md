@@ -26,7 +26,7 @@ The second version of the Efficient Natural Language and Speech Processing (ENLS
   The deadline for submitting papers to our second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop is 22nd of September. For that we will be scheduling two mentioring online sessions to answer your questions. Please join us:
   <br>
   <ul>
-	<li>Tuesday 6th of September 2022 from 10PM to 11PM (UTC-04:00): <a href="https://welink.zhumu.com/j/173174265">link</a></li>
+	<li>Tuesday the 6th of September 2022 from 10PM to 11PM (UTC-04:00): <a href="https://welink.zhumu.com/j/173174265">link</a></li>
 	<li>Wednesday the 7th of September 2022 from 9AM to 10AM (UTC-04:00): <a href="https://welink.zhumu.com/j/633818810">link</a></li>
   </ul>
   </p>
