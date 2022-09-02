@@ -20,6 +20,20 @@ The second version of the Efficient Natural Language and Speech Processing (ENLS
 
 <br>
 
+<div class="alert alert-danger" role="alert">
+  <h4>Mentoring sessions announcement</h4>
+  <p>
+  The deadline for submitting papers to our second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop is 22nd of September. For that we will be scheduling two mentioring online sessions to answer your questions. Please join us:
+  <br>
+  <ul>
+	<li>Tuesday 6th of September 2022 from 10PM to 11PM (UTC-04:00): <a href="https://welink.zhumu.com/j/173174265">link</a></li>
+	<li>Wednesday the 7th of September 2022 from 9AM to 10AM (UTC-04:00): <a href="https://welink.zhumu.com/j/633818810">link</a></li>
+  </ul>
+  </p>
+</div>
+
+<br>
+
 <h2 class="blackpar_title" id="overview">Overview</h2>
 <p>
 Pre-training a general model using self-supervised learning on huge amount of data and then fine-tuning that model on a specific task has become a generic paradigm in solving many natural language and speech processing tasks. Since then, we have had different types of pre-trained models (e.g. encoder-only such as BERT, decoder-only such as GPT, encoder-decoder such as T5) in very diverse range of scales (from millions to
