@@ -122,8 +122,7 @@ Authors can submit up to 100 MB of supplementary materials separately. Authors a
 <h2 class="blackpar_title">Important Dates:</h2>
 <p>
 <ul>
-	<li>Submission Deadline: September 22, 2022 AOE</li>
-	<li>Uploading Supplementary Materials: September 25, 2022 AOE</li>
+	<li>Submission Deadline: September 25, 2022 AOE</li>
 	<li>Acceptance Notification: October 20, 2022 AOE</li>
 	<li>Camera-Ready Submission: November 1, 2022 AOE</li>
 	<li>Workshop Date: TBD</li>
