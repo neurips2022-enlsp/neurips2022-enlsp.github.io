@@ -23,7 +23,7 @@ The second version of the Efficient Natural Language and Speech Processing (ENLS
 <div class="alert alert-danger" role="alert">
   <h4>Mentoring sessions announcement</h4>
   <p>
-  The deadline for submitting papers to our second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop is 22nd of September. For that we will be scheduling two mentioring online sessions to answer your questions. Please join us:
+  The deadline for submitting papers to our second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop is 25th of September. For that we will be scheduling two mentioring online sessions to answer your questions. Please join us:
   <br>
   <ul>
 	<li>Tuesday the 6th of September 2022 from 10PM to 11PM (UTC-04:00)</li>
