@@ -131,7 +131,7 @@ Authors can submit up to 100 MB of supplementary materials separately. Authors a
 	<li>Submission Deadline: September 25, 2022 AOE</li>
 	<li>Acceptance Notification: October 20, 2022 AOE</li>
 	<li>Camera-Ready Submission: November 1, 2022 AOE</li>
-	<li>Workshop Date: <b>December 2, 2022</b> (in-person and virtual)</li>
+	<li>Workshop Date: <b>Friday December 2, 2022</b> (in-person and virtual)</li>
 </ul>
 </p>
 
