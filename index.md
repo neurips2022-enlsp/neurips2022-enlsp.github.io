@@ -11,7 +11,7 @@ layout: home
 	<center>
 		<h2 class="blackpar_title" >The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
 		<h3 class="blackpar_title">(Models, Training and Inference)</h3>
-		<h4 class="blackpar_title">Friday Dec. 2nd 2022, New Orleans {In-person (Room 287) and Virtual}</h4>
+		<h4 class="blackpar_title">Friday Dec. 2nd 2022, New Orleans {<b>In-person</b> (Room 287) and <b>Virtual</b>}</h4>
 	</center>
 </div>
 <br>
