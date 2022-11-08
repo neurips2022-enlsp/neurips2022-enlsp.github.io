@@ -4,14 +4,14 @@
 # between the top bar and the list of recent posts.
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
+# <h3 class="blackpar_title">(Models, Training and Inference)</h3>
 layout: home
 ---
 <div style="font-family: 'Source Sans Pro', sans-serif; background: url('/images/banner_no_text.png') no-repeat; background-size: cover; user-select: none;">
 	<center>
 		<h2 class="blackpar_title" >The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
-		<h3 class="blackpar_title">(Models, Training and Inference)</h3>
-		<h4 class="blackpar_title">Friday Dec. 2nd 2022, New Orleans {<b>In-person</b> (Room 287) and <b>Virtual</b>}</h4>
+		<h3 class="blackpar_title">Friday Dec. 2nd 2022, New Orleans </h3>
+		<h3 class="blackpar_title"><b>In-person</b> (Room 287) and <b>Virtual</b></h3>
 	</center>
 </div>
 <br>
