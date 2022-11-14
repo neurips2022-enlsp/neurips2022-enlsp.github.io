@@ -150,7 +150,7 @@ Authors can submit up to 100 MB of supplementary materials separately. Authors a
 <!-- Schedule -->
 <h2 class="blackpar_title" id="schedule">Schedule (tentative)</h2>
 <p>
-{% include schedule2.html %}
+{% include schedule.html %}
 </p>
 
 <!-- Organizers -->
