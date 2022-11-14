@@ -4,36 +4,38 @@
       title: Dr.
       affiliation: Google
       photo: Tara_Sainath.jpg
-    - name: Tim Dettmers
-      title: 
-      affiliation: University of Washington
-      photo: tim.png
     - name: Graham Neubig 
       title: Prof.
       affiliation: Carnegie Mellon University
       photo: neubig.jpg  
-    - name: Bang Liu
+    - name: Jimmy Lin
       title: Prof.
-      affiliation: University of Montreal / MILA
-      photo: bang_liu.jfif
-- num_row: 2
-  speakers:
-    - name: You Yang
-      title: Prof.
-      affiliation: University of Singapore
-      photo: yangyou3.png
+      affiliation: University of Waterloo
+      photo: jimmy_lin.jpg     
     - name: Song Han
       title: Prof.
       affiliation: MIT
       photo: song_han.jpeg
+      
+- num_row: 2
+  speakers:
+    - name: Danqi Chen
+      title: Prof.
+      affiliation: Princeton University
+      photo: danqi_2019.jpg 
+    - name: You Yang
+      title: Prof.
+      affiliation: University of Singapore
+      photo: yangyou3.png
     - name: Anna Huang 
       title: Prof.
       affiliation: MILA / Google
       photo: annahuang-photo-Anna-Huang.jpg
-    - name: Jimmy Lin
+    - name: Bang Liu
       title: Prof.
-      affiliation: University of Waterloo
-      photo: jimmy_lin.jpg
+      affiliation: University of Montreal / MILA
+      photo: bang_liu.jfif  
+
 - num_row: 3
   speakers:
     - name: Siva Reddy
@@ -44,11 +46,11 @@
       title: Prof.
       affiliation: University of Edinburg
       photo: kenneth.jpg
-    - name: Danqi Chen
-      title: Prof.
-      affiliation: Princeton University
-      photo: danqi_2019.jpg
     - name: Lu Hou
       title: Dr.
       affiliation: Huawei Noah's Ark Lab
       photo: houlu.jpg
+    - name: Tim Dettmers
+      title: 
+      affiliation: University of Washington
+      photo: Tim.png
