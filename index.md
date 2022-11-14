@@ -174,13 +174,13 @@ Authors can submit up to 100 MB of supplementary materials separately. Authors a
 	  </div>
 	</div>
 	<div class="card_perso column_perso">
-	  <img src="/images/anderson_avilla.jpg" alt="Anderson Avilla" class="img_card_perso">
+	  <img src="/images/Soheila.png" alt="Soheila Samiee" class="img_card_perso">
 	  <div class="container_perso">
 		<center>
 		<h6>
-			<b>Anderson Avila</b>
+			<b>Soheila Samiee</b>
 			<br>
-			Huawei Noah's Ark Lab
+			BASF
 		</h6>
 		</center>
 	  </div>
