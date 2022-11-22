@@ -34,14 +34,14 @@
   Presenter: TBD
   Is_paper: true
   Whole_line: false
-  Authors: Weihang Zhang, Ovidiu Serban, Jiahao Sun, Yike Guo
+  Authors: Anonymous
   Abstract: Knowledge graph completion (KGC), the task that aims at predicting missing information based on the already existing relational data inside a knowledge graph(KG), has drawn significant attention in the recent years. However, predictive power of KGC methods is often limited by the completeness of the existing knowledge graphs. In monolingual and multilingual settings, KGs from different sources and languages are potentially complementary to each other. In this paper, we study the problem of multi-KG completion, where we focus on maximizing the collective knowledge from different KGs to alleviate the incompleteness on individual KGs. Specifically, we propose a novel method called CKGC-MKD that uses augmented CompGCN-based encoder models on both individual KGs and a large connected KG in which seed alignments between KGs are regarded as edges for message propagation. Additional mutual knowledge distillation are employed to maximize the knowledge transfer between the 'global' connected KG and the 'local' individual KGs. Experimental results on multilingual datasets has shown that our method outperforms all state-of-the-art models.
 - Title: Attribute Controlled Dialogue Prompting
   Time: 09:45 AM - 09:56 AM
   Presenter: TBD
   Is_paper: true
   Whole_line: false
-  Authors: Runcheng Liu, Ahmad Rashid, Ivan Kobyzev, Mehdi Rezagholizadeh, Pascal Poupart
+  Authors: Anonymous
   Abstract: Prompt-tuning has become an increasingly popular parameter-efficient method for steering large pretrained language models to downstream tasks. However, both discrete prompting and continuous prompting assume fixed prompts for all data samples within a task, neglecting the fact that inputs vary greatly in some tasks such as open-domain dialogue generation. In this paper, we present a novel, instance-specific prompt-tuning algorithm for dialogue generation. Specifically, we generate prompts based on instance-level control code, rather than the conversation history, to explore their impact on controlled dialogue generation. Experiments on popular open-domain dialogue datasets, evaluated with both automated metrics and human evaluation, demonstrate that our method is superior to prompting baselines and comparable to fine-tuning with only 5%-6% of total parameters.
 - Title: Fast DistilBERT on CPUs
   Time: 09:56 AM - 10:05 AM
