@@ -2,7 +2,7 @@
 "id": "2",
 "title": "Parameter-Efficient Low-Resource Dialogue State Tracking by Prompt Tuning",
 "abstract": "Dialogue state tracking (DST) is an important step in dialogue management to keep track of users' beliefs. Existing works fine-tune all language model (LM) parameters to tackle the DST task, which requires significant data and computing resources for training and hosting. The cost grows exponentially in the real-world deployment where dozens of fine-tuned LM are used for different domains and tasks. To reduce parameter size and better utilize cross-task shared information, we propose to use soft prompt token embeddings to learn task properties. Without tuning LM parameters, our method drastically reduces the number of parameters needed to less than 0.5% of prior works while achieves better low-resource DST performance.",
-"authors": "Mingyu Derek Ma (UCLA)*; Jiun-Yu Kao (Amazon); Shuyang Gao (Amazon); arpit gupta (amazon); Di Jin (Amazon Alexa AI); Tagyoung Chung (Amazon); Nanyun Peng (UCLA)"
+"authors": "Anonymous",
 },
 {
 "id": "5",
@@ -20,7 +20,7 @@
 "id": "8",
 "title": "Collective Knowledge Graph Completion with Mutual Knowledge Distillation",
 "abstract": "Knowledge graph completion (KGC), the task that aims at predicting missing information based on the already existing relational data inside a knowledge graph(KG), has drawn significant attention in the recent years. However, predictive power of KGC methods is often limited by the completeness of the existing knowledge graphs. In monolingual and multilingual settings, KGs from different sources and languages are potentially complementary to each other. In this paper, we study the problem of multi-KG completion, where we focus on maximizing the collective knowledge from different KGs to alleviate the incompleteness on individual KGs. Specifically, we propose a novel method called CKGC-MKD that uses augmented CompGCN-based encoder models on both individual KGs and a large connected KG in which seed alignments between KGs are regarded as edges for message propagation. Additional mutual knowledge distillation are employed to maximize the knowledge transfer between the 'global' connected KG and the 'local' individual KGs. Experimental results on multilingual datasets has shown that our method outperforms all state-of-the-art models.",
-"authors": "Weihang Zhang (Imperial College London)*; Ovidiu Serban (Data Science Institute, Imperial College London); Jiahao Sun (Imperial College London); Yike Guo (Imperial College London)"
+"authors": "Anonymous"
 },
 {
 "id": "10",
@@ -80,7 +80,7 @@
 "id": "23",
 "title": "BudgetLongformer: Can we Cheaply Pretrain a SotA Legal Language Model From Scratch?",
 "abstract": "Pretrained transformer models have achieved state-of-the-art results in many tasksand benchmarks recently. Many state-of-the-art (SOTA) Language Models (LM s),however, do not scale well above the threshold of 512 input tokens. In specializeddomains though (such as legal, scientific or biomedical), models often need toprocess very long text (sometimes well above 10000 tokens). Even though manyefficient transformers have been proposed (such as Longformer, BigBird or FNet),so far, only very few such efficient models are available for specialized domains.Additionally, since the pretraining process is extremely costly in general – buteven more so as the sequence length increases – it is often only in reach of largeresearch labs. One way of making pretraining cheaper is the Replaced TokenDetection ( RTD ) task, by providing more signal during training, since the losscan be computed over all tokens. In this work, we train Longformer models withthe efficient RTD task on legal data to showcase that pretraining efficient LMs ispossible using much less compute. We evaluate the trained models on challengingsummarization tasks requiring the model to summarize long texts to show to whatextent the models can achieve good performance on downstream tasks. We findthat both the small and base models outperform their baselines on the in-domainBillSum and out-of-domain PubMed tasks in their respective parameter range. Wepublish our code and models for research purposes.",
-"authors": "Joel Niklaus (University of Bern)*; Daniele Giofrè (Thomson Reuters Labs)"
+"authors": "Anonymous"
 },
 {
 "id": "24",
@@ -164,7 +164,7 @@
 "id": "46",
 "title": "Attribute Controlled Dialogue Prompting",
 "abstract": "Prompt-tuning has become an increasingly popular parameter-efficient method for steering large pretrained language models to downstream tasks. However, both discrete prompting and continuous prompting assume fixed prompts for all data samples within a task, neglecting the fact that inputs vary greatly in some tasks such as open-domain dialogue generation. In this paper, we present a novel, instance-specific prompt-tuning algorithm for dialogue generation. Specifically, we generate prompts based on instance-level control code, rather than the conversation history, to explore their impact on controlled dialogue generation. Experiments on popular open-domain dialogue datasets, evaluated with both automated metrics and human evaluation, demonstrate that our method is superior to prompting baselines and comparable to fine-tuning with only 5%-6% of total parameters.",
-"authors": "Runcheng Liu (University of Waterloo)*; Ahmad Rashid (University of Waterloo); Ivan Kobyzev (Huawei); Mehdi Rezagholizadeh (Huawei Technologies); Pascal Poupart (University of Waterloo)"
+"authors": "Anonymous"
 },
 {
 "id": "50",
@@ -206,7 +206,7 @@
 "id": "65",
 "title": "Using Informative Data Subsets for Efficient Training of Large Language Models: An Initial Study",
 "abstract": "Language Models (LMs) are pretrained on large unlabeled corpora through selfsupervision tasks and have become ubiquitous to several NLP applications. Recent trends indicate that the generalization capability of Large LMs (LLMs) improves tremendously with increasing model capacity and size of the pretraining dataset. However, this also results in inefficiencies owing to higher training times, compute requirements and environmental impact. Previous works have mostly addressed the inefficiency concerns with respect to improving sample efficiency, architecture and training loss objective with little focus on data optimization. In this work, we explore if it is possible to use only highly informative subsets of the training data to train LLMs while maintaining their performance. We build upon the work done in informative data subset selection and propose INGENIOUS, a framework that selects highly representative subsets of the training corpus by optimizing a submodular function. We show INGENIOUS can be adopted for the scale of LLM training and empirically demonstrate that the proposed framework achieves ∼ 99% of original BERT performance in about ∼ 35% of the original training time.",
-"authors": "H S V N S Kowndinya Renduchintala (Indian Institute of Technology Bombay); Krishnateja Killamsetty (University of Texas at Dallas); Sumit Bhatia (Adobe Inc); Milan Aggarwal (Adobe systems)*; Ganesh Ramakrishnan (IIT Bombay); Rishabh Iyer (University of Texas at Dallas)"
+"authors": "Anonymous"
 },
 {
 "id": "66",
