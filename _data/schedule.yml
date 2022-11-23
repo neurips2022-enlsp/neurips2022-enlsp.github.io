@@ -110,48 +110,49 @@
   Whole_line: false
   Bio: Bang Liu is an Assistant Professor in the Department of Computer Science and Operations Research (DIRO) at the University of Montreal. He is a core member of the RALI laboratory (Applied Research in Computer Linguistics) of DIRO, an associate member of Mila – Quebec Artificial Intelligence Institute, and a Canada CIFAR AI (CCAI) Chair. His research interests primarily lie in the areas of natural language processing, data mining, multimodal and embodied learning, and AI + X (e.g., health, material science).
   Abstract: Event causality identification (ECI) is an important task in natural language processing (NLP) which aims to identify the causal relationships between events in text pieces, i.e., predict whether one event causes another one to happen. Due to the diversity of real-world causality events and difficulty in obtaining sufficient training data, existing ECI approaches have poor generalizability and struggle to identify the relation between seldom-seen events. We propose to utilize both external knowledge and internal analogy to improve ECI. By utilizing a commonsense knowledge graph to reveal the commonalities or associations between different events, and retrieving similar events as analogy examples to glean useful experiences from such analogous neighbors, we can better identify the relationship between a new event pair. Extensive evaluations show that our approach significantly outperforms other baseline methods.
+
+- Title: Interactive Industrial Panel
+  Time: 02:00 PM - 02:50 PM
+  Presenter: <ul><li>Jiahao Sun</li><li>Marjan Ghazvininejad</li><li>Yu Cheng</li><li>Mohammad Norouzi</li><li>Rahul Gupta</li></ul>
+  Is_paper: false
+  Whole_line: false
+
+
+- Title: Improving the Robustness of DistilHuBERT to Unseen Noisy Conditions via Data Augmentation, Curriculum Learning, and Multi-Task Enhancement
+  Time: 02:50 PM - 02:59 PM
+  Presenter: TBD
+  Is_paper: true
+  Whole_line: false
+  Authors: Heitor R Guimarães, Arthur S Pimentel, Anderson ARA R. Avila, Mehdi Rezagholizadeh, Tiago H Falk
+  Abstract: 'Self-supervised speech representation learning aims to extract meaningful factors from the speech signal that can later be used across different downstream tasks, such as speech and/or emotion recognition. Existing models, such as HuBERT, however, can be fairly large thus may not be suitable for edge speech applications. Moreover, realistic applications typically involve speech corrupted by noise and room reverberation, hence models need to provide representations that are robust to such environmental factors. In this study, we build on the so-called DistilHuBERT model, which distils HuBERT to a fraction of its original size, with three modifications, namely: (i) augment the training data with noise and reverberation, while the student model needs to distill the clean representations from the teacher model; (ii) introduce a curriculum learning approach where increasing levels of noise are introduced as the model trains, thus helping with convergence and with the creation of more robust representations; and (iii) introduce a multi-task learning approach where the model also reconstructs the clean waveform jointly with the distillation task, thus also acting as an enhancement step to ensure additional environment robustness to the representation. Experiments on three SUPERB tasks show the advantages of the proposed method not only relative to the original DistilHuBERT, but also to the original HuBERT, thus showing the advantages of the proposed method for "in the wild" edge speech applications.'
+- Title: Gradient Knowledge Distillation for Pre-trained Language Models
+  Time: 02:59 PM - 03:05 PM
+  Presenter: TBD
+  Is_paper: true
+  Whole_line: false
+  Authors: Lean Wang, Lei Li, Xu Sun
+  Abstract: Knowledge distillation (KD) is an effective framework to transfer knowledge from a large-scale teacher to a compact yet well-performing student. Previous KD practices for pre-trained language models transfer knowledge by aligning instance-wise outputs between the teacher and the student, while neglecting an important knowledge source, i.e., the gradient of the teacher. The gradient characterizes how the teacher responds to changes in inputs, which we assume is beneficial for the student to better approximate the underlying mapping function of the teacher. Therefore, we propose Gradient Knowledge Distillation (GKD) to incorporate the gradient alignment objective into the distillation process.Experimental results show that GKD outperforms previous KD methods in the student's performance. Further analysis shows that incorporating gradient knowledge makes the student behave more consistently with the teacher, improving the interpretability greatly.
+
+- Title: Break and Poster Session II
+  Time: 03:00 PM - 03:30 PM
+  Whole_line: true
+
 - Title: Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval
-  Time: 02:00 PM - 02:35 PM
+  Time: 03:30 PM - 04:05 PM
   Presenter: Graham Neubig
   Is_paper: false
   Whole_line: false
   Bio: Graham Neubig is an associate professor at the Language Technologies Institute of Carnegie Mellon University and CEO of Inspired Cognition. His research focuses on natural language processing, with a focus on multilingual NLP, natural language interfaces to computers, and machine learning methods for NLP system building and evaluation. His final goal is that every person in the world should able to communicate with each-other, and with computers in their own language. He also contributes to making NLP research more accessible through open publishing of research papers, advanced NLP course materials and video lectures, and open-source software, all of which are available on his web site.
   Abstract: 'Retrieval-based language models (R-LM) model the probability of natural language text by combining a standard language model (LM) with examples retrieved from an external datastore at test time. While effective, a major bottleneck of using these models in practice is the computationally costly datastore search, which can be performed as frequently as every time step. In this paper, we present RetoMaton - retrieval automaton - which approximates the datastore search, based on (1) saving pointers between consecutive datastore entries, and (2) clustering of entries into "states". This effectively results in a weighted finite automaton built on top of the datastore, instead of representing the datastore as a flat list. The creation of the automaton is unsupervised, and a RetoMaton can be constructed from any text collection: either the original training corpus or from another domain. Traversing this automaton at inference time, in parallel to the LM inference, reduces its perplexity by up to 1.85, or alternatively saves up to 83% of the nearest neighbor searches over kNN-LM (Khandelwal et al., 2020) without hurting perplexity.'
 - Title: Do we still need inductive biases after Transformer language models
-  Time: 02:35 PM - 03:05 PM
+  Time: 04:05 PM - 04:35 PM
   Presenter: Siva Reddy
   Is_paper: false
   Whole_line: false
   Bio: Siva Reddy is an Assistant Professor in the School of Computer Science and Linguistics at McGill University. He is a Facebook CIFAR AI Chair and a core faculty member of Mila Quebec AI Institute. Before McGill, he was a postdoctoral researcher at Stanford University. He received his PhD from the University of Edinburgh in 2017, where he was a Google PhD Fellow. His research focuses on representation learning for language that facilitates systematic generalization, reasoning and conversational modeling. He received the 2020 VentureBeat AI Innovation Award in NLP, and the best paper award at EMNLP 2021.
   Abstract: 'In this talk, I will explore the role of inductive biases when fine-tuning large Transformer language models in three different scenarios: when output space is structured, for example, semantic parsing from language to code; when performing multi-task learning where tasks may share some latent structure, e.g., different semantic tasks like question answering and text entailment may share common reasoning skills; when the input involves a higher-order (latent) structure such as negation. It is not always the case that inductive biases help. Come with your wisest/wildest answers.'
-
-- Title: Break and Poster Session II
-  Time: 03:00 PM - 03:30 PM
-  Whole_line: true
-
-- Title: Improving the Robustness of DistilHuBERT to Unseen Noisy Conditions via Data Augmentation, Curriculum Learning, and Multi-Task Enhancement
-  Time: 03:30 PM - 03:40 PM
-  Presenter: TBD
-  Is_paper: true
-  Whole_line: false
-  Authors: Heitor R Guimarães, Arthur S Pimentel, Anderson ARA R. Avila, Mehdi Rezagholizadeh, Tiago H Falk
-  Abstract: 'Self-supervised speech representation learning aims to extract meaningful factors from the speech signal that can later be used across different downstream tasks, such as speech and/or emotion recognition. Existing models, such as HuBERT, however, can be fairly large thus may not be suitable for edge speech applications. Moreover, realistic applications typically involve speech corrupted by noise and room reverberation, hence models need to provide representations that are robust to such environmental factors. In this study, we build on the so-called DistilHuBERT model, which distils HuBERT to a fraction of its original size, with three modifications, namely: (i) augment the training data with noise and reverberation, while the student model needs to distill the clean representations from the teacher model; (ii) introduce a curriculum learning approach where increasing levels of noise are introduced as the model trains, thus helping with convergence and with the creation of more robust representations; and (iii) introduce a multi-task learning approach where the model also reconstructs the clean waveform jointly with the distillation task, thus also acting as an enhancement step to ensure additional environment robustness to the representation. Experiments on three SUPERB tasks show the advantages of the proposed method not only relative to the original DistilHuBERT, but also to the original HuBERT, thus showing the advantages of the proposed method for "in the wild" edge speech applications.'
-  
-- Title: Interactive Industrial Panel
-  Time: 03:30 PM - 04:30 PM
-  Presenter: <ul><li>Jiahao Sun</li><li>Marjan Ghazvininejad</li><li>Yu Cheng</li><li>Mohammad Norouzi</li><li>Rahul Gupta</li></ul>
-  Is_paper: false
-  Whole_line: false  
-  
-- Title: Gradient Knowledge Distillation for Pre-trained Language Models
-  Time: 03:39 PM - 03:45 PM
-  Presenter: TBD
-  Is_paper: true
-  Whole_line: false
-  Authors: Lean Wang, Lei Li, Xu Sun
-  Abstract: Knowledge distillation (KD) is an effective framework to transfer knowledge from a large-scale teacher to a compact yet well-performing student. Previous KD practices for pre-trained language models transfer knowledge by aligning instance-wise outputs between the teacher and the student, while neglecting an important knowledge source, i.e., the gradient of the teacher. The gradient characterizes how the teacher responds to changes in inputs, which we assume is beneficial for the student to better approximate the underlying mapping function of the teacher. Therefore, we propose Gradient Knowledge Distillation (GKD) to incorporate the gradient alignment objective into the distillation process.Experimental results show that GKD outperforms previous KD methods in the student's performance. Further analysis shows that incorporating gradient knowledge makes the student behave more consistently with the teacher, improving the interpretability greatly.
 - Title: 8-bit Methods for Efficient Deep Learning
-  Time: 04:30 PM - 05:00 PM
+  Time: 04:35 PM - 05:05 PM
   Presenter: Tim Dettmers
   Is_paper: false
   Whole_line: false
@@ -164,7 +165,6 @@
   Whole_line: false
   Bio: TBD
   Abstract: TBD
-
 - Title: Best Paper and Poster Award & Closing
   Time: 05:50 PM - 06:00 PM
   Whole_line: true
