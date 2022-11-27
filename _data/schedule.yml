@@ -31,21 +31,21 @@
   
 - Title: Collective Knowledge Graph Completion with Mutual Knowledge Distillation
   Time: 09:35 AM - 09:45 AM
-  Presenter: TBD
+  Presenter: Weihang Zhang · Ovidiu Serban · Jiahao Sun · Yike Guo
   Is_paper: true
   Whole_line: false
   Authors: Anonymous
   Abstract: Knowledge graph completion (KGC), the task that aims at predicting missing information based on the already existing relational data inside a knowledge graph(KG), has drawn significant attention in the recent years. However, predictive power of KGC methods is often limited by the completeness of the existing knowledge graphs. In monolingual and multilingual settings, KGs from different sources and languages are potentially complementary to each other. In this paper, we study the problem of multi-KG completion, where we focus on maximizing the collective knowledge from different KGs to alleviate the incompleteness on individual KGs. Specifically, we propose a novel method called CKGC-MKD that uses augmented CompGCN-based encoder models on both individual KGs and a large connected KG in which seed alignments between KGs are regarded as edges for message propagation. Additional mutual knowledge distillation are employed to maximize the knowledge transfer between the 'global' connected KG and the 'local' individual KGs. Experimental results on multilingual datasets has shown that our method outperforms all state-of-the-art models.
 - Title: Attribute Controlled Dialogue Prompting
   Time: 09:45 AM - 09:56 AM
-  Presenter: TBD
+  Presenter: Runcheng Liu · Ahmad Rashid · Ivan Kobyzev · Mehdi Rezaghoizadeh · Pascal Poupart
   Is_paper: true
   Whole_line: false
   Authors: Anonymous
   Abstract: Prompt-tuning has become an increasingly popular parameter-efficient method for steering large pretrained language models to downstream tasks. However, both discrete prompting and continuous prompting assume fixed prompts for all data samples within a task, neglecting the fact that inputs vary greatly in some tasks such as open-domain dialogue generation. In this paper, we present a novel, instance-specific prompt-tuning algorithm for dialogue generation. Specifically, we generate prompts based on instance-level control code, rather than the conversation history, to explore their impact on controlled dialogue generation. Experiments on popular open-domain dialogue datasets, evaluated with both automated metrics and human evaluation, demonstrate that our method is superior to prompting baselines and comparable to fine-tuning with only 5%-6% of total parameters.
 - Title: Fast DistilBERT on CPUs
   Time: 09:56 AM - 10:05 AM
-  Presenter: TBD
+  Presenter: Haihao Shen · Ofir Zafrir · Bo Dong · Hengyu Meng · Xinyu Ye · Zhe Wang · Yi Ding · Hanwen Chang · Guy Boudoukh · Moshe Wasserblat
   Is_paper: true
   Whole_line: false
   Authors: Haihao Shen, Ofir Zafrir, Bo Dong, Hengyu Meng, Xinyu Ye, Zhe Wang, Yi Ding, Hanwen Chang, Guy Boudoukh, Moshe Wasserblat
@@ -79,21 +79,21 @@
   
 - Title: Efficient Few-Shot Learning Without Prompts
   Time: 12:05 PM - 12:15 PM
-  Presenter: TBD
+  Presenter: Oren Pereg · Daniel Korat · Moshe Wasserblat · Lewis Tunstall · Unso Eun Seo Jo · Luke Bates · Nils Reimers
   Is_paper: true
   Whole_line: false
   Authors: Oren Pereg, Daniel Korat, Moshe Wasserblat, Lewis Tunstall, Unso Eun Seo Jo. Luke Bates, Nils Reimers
   Abstract: Recent few-shot learning methods, such as parameter-efficient fine-tuning (PEFT) and pattern exploiting training (PET), have achieved impressive results in label-scarce settings. However, they are difficult to employ since they are highly sensitive to handcrafted prompts, and typically require billion-parameter language models to achieve high accuracy. To address these shortcomings, we propose SetFit (Sentence Transformer Fine-tuning), an efficient and prompt-free framework for few-shot fine-tuning of Sentence Transformers (ST). SetFit works by first fine-tuning a pretrained ST on a small number of labeled text pairs, in a contrastive Siamese manner. The resulting model is then used to generate rich text embeddings, which are used to train a classification head. This simple framework requires no prompts or verbalizers, and achieves high accuracy with orders of magnitude less parameters and runtime than existing techniques. Our experiments show that SetFit achieves results competitive with PEFT and PET techniques, and outperforms them on a variety of classification tasks.
 - Title: PCFG-based Natural Language Interface Improves Generalization for Controlled Text Generation
   Time: 12:15 PM - 12:25 PM
-  Presenter: TBD
+  Presenter: Jingyu Zhang · Jim Glass · Tianxing He
   Is_paper: true
   Whole_line: false
   Authors: Jingyu Zhang, James Glass, Tianxing He
   Abstract: Existing work on controlled text generation (CTG) assumes a control interface of categorical attributes. In this work, we propose a natural language interface, where we craft a PCFG to embed the control attributes into natural language commands and propose variants of existing CTG models that take commands as input. We design tailored experiments to test model's generalization abilities. The results show our PCFG-based command generation approach is effective for handling unseen commands compared to fix-set templates, and our proposed NL models can effectively generalize to unseen attributes.
 - Title: 'PromptDA: Label-guided Data Augmentation for Prompt-based Few Shot Learners'
   Time: 12:25 PM - 12:35 PM
-  Presenter: TBD
+  Presenter: Canyu Chen · Kai Shu
   Is_paper: true
   Whole_line: false
   Authors: Canyu Chen, Kai Shu
@@ -127,7 +127,7 @@
   Abstract: 'Self-supervised speech representation learning aims to extract meaningful factors from the speech signal that can later be used across different downstream tasks, such as speech and/or emotion recognition. Existing models, such as HuBERT, however, can be fairly large thus may not be suitable for edge speech applications. Moreover, realistic applications typically involve speech corrupted by noise and room reverberation, hence models need to provide representations that are robust to such environmental factors. In this study, we build on the so-called DistilHuBERT model, which distils HuBERT to a fraction of its original size, with three modifications, namely: (i) augment the training data with noise and reverberation, while the student model needs to distill the clean representations from the teacher model; (ii) introduce a curriculum learning approach where increasing levels of noise are introduced as the model trains, thus helping with convergence and with the creation of more robust representations; and (iii) introduce a multi-task learning approach where the model also reconstructs the clean waveform jointly with the distillation task, thus also acting as an enhancement step to ensure additional environment robustness to the representation. Experiments on three SUPERB tasks show the advantages of the proposed method not only relative to the original DistilHuBERT, but also to the original HuBERT, thus showing the advantages of the proposed method for "in the wild" edge speech applications.'
 - Title: Gradient Knowledge Distillation for Pre-trained Language Models
   Time: 02:59 PM - 03:05 PM
-  Presenter: TBD
+  Presenter: Lean Wang · Lei Li · Xu Sun
   Is_paper: true
   Whole_line: false
   Authors: Lean Wang, Lei Li, Xu Sun
