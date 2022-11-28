@@ -79,21 +79,21 @@
   
 - Title: Efficient Few-Shot Learning Without Prompts
   Time: 12:05PM - 12:15PM
-  Presenter: Oren Pereg · Daniel Korat · Moshe Wasserblat · Lewis Tunstall · Unso Eun Seo Jo · Luke Bates · Nils Reimers
+  Presenter: <ul><li>Oren Pereg</li><li>Daniel Korat</li><li>Moshe Wasserblat</li><li>Lewis Tunstall</li><li>Unso Eun Seo Jo</li><li>Luke Bates</li><li>Nils Reimers</li></ul>
   Is_paper: true
   Whole_line: false
   Authors: Oren Pereg, Daniel Korat, Moshe Wasserblat, Lewis Tunstall, Unso Eun Seo Jo. Luke Bates, Nils Reimers
   Abstract: Recent few-shot learning methods, such as parameter-efficient fine-tuning (PEFT) and pattern exploiting training (PET), have achieved impressive results in label-scarce settings. However, they are difficult to employ since they are highly sensitive to handcrafted prompts, and typically require billion-parameter language models to achieve high accuracy. To address these shortcomings, we propose SetFit (Sentence Transformer Fine-tuning), an efficient and prompt-free framework for few-shot fine-tuning of Sentence Transformers (ST). SetFit works by first fine-tuning a pretrained ST on a small number of labeled text pairs, in a contrastive Siamese manner. The resulting model is then used to generate rich text embeddings, which are used to train a classification head. This simple framework requires no prompts or verbalizers, and achieves high accuracy with orders of magnitude less parameters and runtime than existing techniques. Our experiments show that SetFit achieves results competitive with PEFT and PET techniques, and outperforms them on a variety of classification tasks.
 - Title: PCFG-based Natural Language Interface Improves Generalization for Controlled Text Generation
   Time: 12:15PM - 12:25PM
-  Presenter: Jingyu Zhang · Jim Glass · Tianxing He
+  Presenter: <ul><li>Jingyu Zhang</li><li>Jim Glass</li><li>Tianxing He</li></ul>
   Is_paper: true
   Whole_line: false
   Authors: Jingyu Zhang, James Glass, Tianxing He
   Abstract: Existing work on controlled text generation (CTG) assumes a control interface of categorical attributes. In this work, we propose a natural language interface, where we craft a PCFG to embed the control attributes into natural language commands and propose variants of existing CTG models that take commands as input. We design tailored experiments to test model's generalization abilities. The results show our PCFG-based command generation approach is effective for handling unseen commands compared to fix-set templates, and our proposed NL models can effectively generalize to unseen attributes.
 - Title: 'PromptDA: Label-guided Data Augmentation for Prompt-based Few Shot Learners'
   Time: 12:25PM - 12:35PM
-  Presenter: Canyu Chen · Kai Shu
+  Presenter: <ul><li>Canyu Chen</li><li>Kai Shu</li></ul>
   Is_paper: true
   Whole_line: false
   Authors: Canyu Chen, Kai Shu
@@ -120,14 +120,14 @@
 
 - Title: Improving the Robustness of DistilHuBERT to Unseen Noisy Conditions via Data Augmentation, Curriculum Learning, and Multi-Task Enhancement
   Time: 02:50PM - 02:59PM
-  Presenter: Heitor R Guimarães, Arthur S Pimentel, Anderson ARA R. Avila, Mehdi Rezagholizadeh, Tiago H Falk
+  Presenter: <ul><li>Heitor R Guimarães</li><li>Arthur S Pimentel</li><li>Anderson ARA R. Avila</li><li>Mehdi Rezagholizadeh</li><li>Tiago H Falk</li></ul>
   Is_paper: true
   Whole_line: false
   Authors: Heitor R Guimarães, Arthur S Pimentel, Anderson ARA R. Avila, Mehdi Rezagholizadeh, Tiago H Falk
   Abstract: 'Self-supervised speech representation learning aims to extract meaningful factors from the speech signal that can later be used across different downstream tasks, such as speech and/or emotion recognition. Existing models, such as HuBERT, however, can be fairly large thus may not be suitable for edge speech applications. Moreover, realistic applications typically involve speech corrupted by noise and room reverberation, hence models need to provide representations that are robust to such environmental factors. In this study, we build on the so-called DistilHuBERT model, which distils HuBERT to a fraction of its original size, with three modifications, namely: (i) augment the training data with noise and reverberation, while the student model needs to distill the clean representations from the teacher model; (ii) introduce a curriculum learning approach where increasing levels of noise are introduced as the model trains, thus helping with convergence and with the creation of more robust representations; and (iii) introduce a multi-task learning approach where the model also reconstructs the clean waveform jointly with the distillation task, thus also acting as an enhancement step to ensure additional environment robustness to the representation. Experiments on three SUPERB tasks show the advantages of the proposed method not only relative to the original DistilHuBERT, but also to the original HuBERT, thus showing the advantages of the proposed method for "in the wild" edge speech applications.'
 - Title: Gradient Knowledge Distillation for Pre-trained Language Models
   Time: 02:59PM - 03:05PM
-  Presenter: Lean Wang · Lei Li · Xu Sun
+  Presenter: <ul><li>Lean Wang</li><li>Lei Li</li><li>Xu Sun</li></ul>
   Is_paper: true
   Whole_line: false
   Authors: Lean Wang, Lei Li, Xu Sun
