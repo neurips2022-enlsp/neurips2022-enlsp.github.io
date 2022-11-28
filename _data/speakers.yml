@@ -27,10 +27,10 @@
       title: Prof.
       affiliation: University of Singapore
       photo: yangyou3.png
-    - name: Anna Huang 
-      title: Prof.
-      affiliation: MILA / Google
-      photo: annahuang-photo-Anna-Huang.jpg
+    - name: Lu Hou
+      title: Dr.
+      affiliation: Huawei Noah's Ark Lab
+      photo: houlu.jpg
     - name: Bang Liu
       title: Prof.
       affiliation: University of Montreal / MILA
@@ -42,15 +42,17 @@
       title: Prof.
       affiliation: McGill & MILA
       photo: siva2.jpg
-    - name: Kenneth Heafield
-      title: Prof.
-      affiliation: University of Edinburg
-      photo: kenneth.jpg
-    - name: Lu Hou
-      title: Dr.
-      affiliation: Huawei Noah's Ark Lab
-      photo: houlu.jpg
     - name: Tim Dettmers
       title: 
       affiliation: University of Washington
       photo: Tim.png
+      <!--
+    - name: Kenneth Heafield
+      title: Prof.
+      affiliation: University of Edinburg
+      photo: kenneth.jpg
+    - name: Anna Huang 
+      title: Prof.
+      affiliation: MILA / Google
+      photo: annahuang-photo-Anna-Huang.jpg
+      -->
