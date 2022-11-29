@@ -14,7 +14,7 @@
   Whole_line: false
   Bio: Dr. Lu HOU is a researcher at the Speech and Semantics Lab in Huawei Noah's Ark Lab. She obtained Ph.D. from Hong Kong University of Science and Technology in 2019, under the supervision of Prof. James T. Kwok. Her current research interests include compression and acceleration of deep neural networks, natural language processing, and deep learning optimization.
   Abstract: Unsupervised large-scale vision-language pre-training has shown promising advances on various downstream tasks. Existing methods often model the cross-modal interaction either via the similarity of the global feature of each modality which misses sufficient information, or finer-grained interactions using cross/self-attention upon visual and textual tokens. However, cross/self-attention suffers from inferior efficiency in both training and inference. In this talk, we introduce a large-scale Fine-grained Interactive Language-Image Pre-training method to achieve finer-level alignment through a cross-modal late interaction mechanism, which uses a token-wise maximum similarity between visual and textual tokens to guide the contrastive objective. The resultant model FILIP and Wukong achieve good performance on multiple downstream vision-language tasks, while maintaining the inference efficiency of dual-stream models. The visualization on word-patch alignment further shows that FILIP can learn meaningful fine-grained features with promising localization ability. Furthermore, we release a 100 million Chinese image-text pair dataset for pre-training.
-- Title: (KeyNote Talk)
+- Title: TBD
   Time: 08:30AM - 09:05AM
   Presenter: Jimmy Lin
   Is_paper: false
