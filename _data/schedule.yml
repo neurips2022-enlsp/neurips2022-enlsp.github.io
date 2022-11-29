@@ -159,7 +159,7 @@
   Bio: Tim Dettmers is a 5th year PhD student advised by Luke Zettlemoyer at the University of Washington in Seattle. He holds degrees in applied math and computer science and has a background in industrial automation. His primary research revolves around making neural networks more efficient, focusing on the sparsification and quantization of language models. Tim runs a blog about deep learning, GPUs, and PhD life at timdettmers.com.
   Abstract: Large language models are effective tools for many tasks but are difficult to train and inference due to their size. Moving from 32-bit models to 16-bit models resulted in considerable efficiency gains that made training and inference of large models easier. Can we train and inference in 8-bit to make further gains? In this talk, I will show that 8-bit inference and training can be used without degrading performance while improving efficiency. To make 8-bit methods work, it is essential to understand how quantization precision affects model performance and training stability as we scale the model size. I will talk about how these factors change with scale and how we need to adjust 8-bit methods to make them work. In particular, I will speak about 8-bit optimizers for training and Int8 inference for large language models with up to 175B parameters. These methods make training and inference more efficient and make large models more accessible to researchers.
 - Title: Efficient Controllable Generative Models for Music and Performance Synthesis
-  Time: 05:00PM - 05:30PM
+  Time: 05:05PM - 05:35PM
   Presenter: Anna Huang
   Is_paper: false
   Whole_line: false
