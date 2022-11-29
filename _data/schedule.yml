@@ -55,7 +55,7 @@
   Time: 10:00AM - 10:30AM
   Whole_line: true
   
-- Title: (KeyNote Talk) 'SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models'
+- Title: 'SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models'
   Time: 10:30AM - 11:05AM
   Presenter: Song Han
   Is_paper: false
