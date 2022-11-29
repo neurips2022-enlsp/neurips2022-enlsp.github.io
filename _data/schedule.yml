@@ -62,13 +62,13 @@
   Whole_line: false
   Bio: 'Song Han is an associate professor at MIT EECS. He received his PhD degree from Stanford University. He proposed "deep compression" technique that’s widely used by industry for efficient AI computing, and "Efficient Inference Engine" that first brought weight sparsity to neural network accelerators. His team’s work on hardware-aware neural architecture search (once-for-all network, MCUNet) brought deep learning to IoT devices that has only 256KB memory, and enables learning on the edge. Song received the NSF CAREER Award for “efficient algorithms and hardware for accelerated machine learning” and was named “35 Innovators Under 35” by MIT Technology Review.'
   Abstract: Large language models (LLMs) show excellent performance but are compute- and memory-intensive. Quantization can reduce memory and accelerate inference. However, for LLMs beyond 100 billion parameters, existing methods cannot maintain accuracy due to outliers or do not run efficiently on hardware. I’ll present SmoothQuant, a training-free, accuracy-preserving, and general-purpose post-training quantization (PTQ) solution to enable 8-bit weight, 8-bit activation (W8A8) quantization for LLMs, including OPT-175B, BLOOM-176B and GLM-130B, achieving faster inference speed with half the number of GPUs. We hope SmoothQuant can inspire economic deployment of LLMs in the future.
-- Title: TBD
+- Title: Building Language Models Based on Retrieval
   Time: 11:05AM - 11:35AM
   Presenter: Danqi Chen
   Is_paper: false
   Whole_line: false
-  Bio: TBD
-  Abstract: TBD
+  Bio: Danqi Chen is an Assistant Professor of Computer Science at Princeton University and co-leads the Princeton NLP Group. Her recent research focuses on training, adapting, and understanding large language models, and developing scalable and generalizable NLP systems for question answering, information extraction, and conversational agents. Before joining Princeton, Danqi worked as a visiting scientist at Facebook AI Research. She received her Ph.D. from Stanford University (2018) and B.E. from Tsinghua University (2012), both in Computer Science. Danqi is a recipient of a Sloan Fellowship, a Samsung AI Researcher of the Year award, outstanding paper awards from ACL 2016, EMNLP 2017, and ACL 2022, and multiple research awards from industry. 
+  Abstract: Large language models (LLMs) have utterly transformed the field of natural language processing. However, training LLMs comes at a massive financial and environmental cost, making them out of reach of academic research labs. Meanwhile, these models are costly to update and brittle in leaking private text data. In this talk, I will argue that retrieval-based language models are a promising way of scaling LMs and overcoming the above limitations. I will discuss recent developments of retrieval-based language models, compare their pros and cons, and show their benefits in interpretability, adaptability, and privacy. In particular, I will introduce a new training approach for retrieval-based language models called TRIME (TRaining with In-batch MEmories), which can train LMs to retrieve better from the text during inference.
 - Title: 'Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training'
   Time: 11:35AM - 12:05PM
   Presenter: You Yang
