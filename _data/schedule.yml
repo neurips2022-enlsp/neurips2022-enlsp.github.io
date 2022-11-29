@@ -13,8 +13,8 @@
   Is_paper: false
   Whole_line: false
   Bio: TBD
-  Abstract: TBD 
-- Title: TBD 
+  Abstract: TBD
+- Title: TBD
   Time: 08:30AM - 09:05AM
   Presenter: Jimmy Lin
   Is_paper: false
@@ -62,7 +62,7 @@
   Whole_line: false
   Bio: 'Song Han is an associate professor at MIT EECS. He received his PhD degree from Stanford University. He proposed "deep compression" technique that’s widely used by industry for efficient AI computing, and "Efficient Inference Engine" that first brought weight sparsity to neural network accelerators. His team’s work on hardware-aware neural architecture search (once-for-all network, MCUNet) brought deep learning to IoT devices that has only 256KB memory, and enables learning on the edge. Song received the NSF CAREER Award for “efficient algorithms and hardware for accelerated machine learning” and was named “35 Innovators Under 35” by MIT Technology Review.'
   Abstract: Large language models (LLMs) show excellent performance but are compute- and memory-intensive. Quantization can reduce memory and accelerate inference. However, for LLMs beyond 100 billion parameters, existing methods cannot maintain accuracy due to outliers or do not run efficiently on hardware. I’ll present SmoothQuant, a training-free, accuracy-preserving, and general-purpose post-training quantization (PTQ) solution to enable 8-bit weight, 8-bit activation (W8A8) quantization for LLMs, including OPT-175B, BLOOM-176B and GLM-130B, achieving faster inference speed with half the number of GPUs. We hope SmoothQuant can inspire economic deployment of LLMs in the future.
-- Title: Building Language Models Based on Retrieval
+- Title: TBD
   Time: 11:05AM - 11:35AM
   Presenter: Danqi Chen
   Is_paper: false
@@ -144,7 +144,7 @@
   Whole_line: false
   Bio: Graham Neubig is an associate professor at the Language Technologies Institute of Carnegie Mellon University and CEO of Inspired Cognition. His research focuses on natural language processing, with a focus on multilingual NLP, natural language interfaces to computers, and machine learning methods for NLP system building and evaluation. His final goal is that every person in the world should able to communicate with each-other, and with computers in their own language. He also contributes to making NLP research more accessible through open publishing of research papers, advanced NLP course materials and video lectures, and open-source software, all of which are available on his web site.
   Abstract: 'Retrieval-based language models (R-LM) model the probability of natural language text by combining a standard language model (LM) with examples retrieved from an external datastore at test time. While effective, a major bottleneck of using these models in practice is the computationally costly datastore search, which can be performed as frequently as every time step. In this paper, we present RetoMaton - retrieval automaton - which approximates the datastore search, based on (1) saving pointers between consecutive datastore entries, and (2) clustering of entries into "states". This effectively results in a weighted finite automaton built on top of the datastore, instead of representing the datastore as a flat list. The creation of the automaton is unsupervised, and a RetoMaton can be constructed from any text collection: either the original training corpus or from another domain. Traversing this automaton at inference time, in parallel to the LM inference, reduces its perplexity by up to 1.85, or alternatively saves up to 83% of the nearest neighbor searches over kNN-LM (Khandelwal et al., 2020) without hurting perplexity.'
-- Title: [KeyNote Talk] Do we still need inductive biases after Transformer language models
+- Title: Do we still need inductive biases after Transformer language models
   Time: 04:05PM - 04:35PM
   Presenter: Siva Reddy
   Is_paper: false
