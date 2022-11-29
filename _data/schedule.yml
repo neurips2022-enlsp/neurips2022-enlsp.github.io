@@ -158,13 +158,20 @@
   Whole_line: false
   Bio: Tim Dettmers is a 5th year PhD student advised by Luke Zettlemoyer at the University of Washington in Seattle. He holds degrees in applied math and computer science and has a background in industrial automation. His primary research revolves around making neural networks more efficient, focusing on the sparsification and quantization of language models. Tim runs a blog about deep learning, GPUs, and PhD life at timdettmers.com.
   Abstract: Large language models are effective tools for many tasks but are difficult to train and inference due to their size. Moving from 32-bit models to 16-bit models resulted in considerable efficiency gains that made training and inference of large models easier. Can we train and inference in 8-bit to make further gains? In this talk, I will show that 8-bit inference and training can be used without degrading performance while improving efficiency. To make 8-bit methods work, it is essential to understand how quantization precision affects model performance and training stability as we scale the model size. I will talk about how these factors change with scale and how we need to adjust 8-bit methods to make them work. In particular, I will speak about 8-bit optimizers for training and Int8 inference for large language models with up to 175B parameters. These methods make training and inference more efficient and make large models more accessible to researchers.
-- Title: TBD
+- Title: Efficient Controllable Generative Models for Music and Performance Synthesis
   Time: 05:00PM - 05:30PM
   Presenter: Anna Huang
   Is_paper: false
   Whole_line: false
-  Bio: TBD
-  Abstract: TBD
+  Bio: Anna Huang is a Research Scientist at Google Brain, working on the Magenta project. She is also a Canada CIFAR AI Chair at Mila – Québec AI Institute, and an Adjunct Professor at Université de Montréal. Her research focuses on designing generative models and interfaces to support music making and more generally the creative process. Her work is at the intersection of machine learning, human-computer interaction, and music. She is the creator of Music Transformer and Coconet. Coconet was the ML model that powered Google’s first AI Doodle, the Bach Doodle, in two days enabling tens of millions of users around the world to co-compose with ML in their browser. She is an organizer of the international AI Song Contest, and was a guest editor for TISMIR's special issue on AI and Musical Creativity.
+  Abstract: How can we design generative models with structure that both improve the efficiency of models and controllability for users? In this talk, I'll give two examples to illustrate how we could achieve this goal by taking inspiration from the nonlinear and hierarchical structure that underlies the human process of creating music. 
+
+Generative models of music composition typically assume music is written in a single pass from beginning to end, constraining the user to also follow this unnatural chronological process. To enable a more nonlinear creative workflow, we introduced Coconet (Huang et al., 2017) an Orderless NADE (Uria et al., 2014) like generative model (similar to masked language and visual models) that models all permutations of orderings of breaking down the task of composition. This enables both the model to learn more efficiently from data sequences by traversing it from all directions, and users to put down notes in any order and have the model complete any partial score. 
+
+Neural audio synthesizers typically synthesize musical performance audio from MIDI end-to-end, resulting in a blackbox that offers few mechanisms for control. To enable detailed user control, we introduced MIDI-DDSP (Wu et al., 2022), a hierarchical model of musical performance synthesis, that breaks down audio synthesis into a three-level hierarchy of notes, performance, and synthesis, analogous to how a creative process involves composers, performers and instruments. Not only does this interpretable hierarchy allow users to intervene at each level or utilize trained priors (performance given notes, synthesis given performance) for creative assistance, it also allows models to leverage these inductive biases to learn more efficiently from data, making it possible to train high-fidelity performance synthesis models from only a few hours of recordings.
+
+We hope these examples might encourage researchers to partner with creative practitioners to innovate in modeling, interaction, and human-ai co-creativity. We could see the goal as not only designing generative models that can model and generate creative artifacts well, but also working towards generative agents that we can coordinate and collaborate with in a creative setting. 
+
 - Title: Best Paper and Poster Award & Closing
-  Time: 05:50PM - 06:00PM
+  Time: 05:35PM - 05:45PM
   Whole_line: true
