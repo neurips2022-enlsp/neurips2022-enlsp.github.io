@@ -55,7 +55,7 @@
   Time: 10:00AM - 10:30AM
   Whole_line: true
   
-- Title: SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models
+- Title: 'SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models'
   Time: 10:30AM - 11:05AM
   Presenter: Song Han
   Is_paper: false
@@ -69,7 +69,7 @@
   Whole_line: false
   Bio: TBD
   Abstract: TBD
-- Title: Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training
+- Title: 'Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training'
   Time: 11:35AM - 12:05PM
   Presenter: You Yang
   Is_paper: false
