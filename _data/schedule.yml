@@ -62,14 +62,14 @@
   Whole_line: false
   Bio: 'Song Han is an associate professor at MIT EECS. He received his PhD degree from Stanford University. He proposed "deep compression" technique that’s widely used by industry for efficient AI computing, and "Efficient Inference Engine" that first brought weight sparsity to neural network accelerators. His team’s work on hardware-aware neural architecture search (once-for-all network, MCUNet) brought deep learning to IoT devices that has only 256KB memory, and enables learning on the edge. Song received the NSF CAREER Award for “efficient algorithms and hardware for accelerated machine learning” and was named “35 Innovators Under 35” by MIT Technology Review.'
   Abstract: Large language models (LLMs) show excellent performance but are compute- and memory-intensive. Quantization can reduce memory and accelerate inference. However, for LLMs beyond 100 billion parameters, existing methods cannot maintain accuracy due to outliers or do not run efficiently on hardware. I’ll present SmoothQuant, a training-free, accuracy-preserving, and general-purpose post-training quantization (PTQ) solution to enable 8-bit weight, 8-bit activation (W8A8) quantization for LLMs, including OPT-175B, BLOOM-176B and GLM-130B, achieving faster inference speed with half the number of GPUs. We hope SmoothQuant can inspire economic deployment of LLMs in the future.
-- Title: Building Language Models Based on Retrieval
+- Title: (KeyNote Talk) Building Language Models Based on Retrieval
   Time: 11:05AM - 11:35AM
   Presenter: Danqi Chen
   Is_paper: false
   Whole_line: false
   Bio: Danqi Chen is an Assistant Professor of Computer Science at Princeton University and co-leads the Princeton NLP Group. Her recent research focuses on training, adapting, and understanding large language models, and developing scalable and generalizable NLP systems for question answering, information extraction, and conversational agents. Before joining Princeton, Danqi worked as a visiting scientist at Facebook AI Research. She received her Ph.D. from Stanford University (2018) and B.E. from Tsinghua University (2012), both in Computer Science. Danqi is a recipient of a Sloan Fellowship, a Samsung AI Researcher of the Year award, outstanding paper awards from ACL 2016, EMNLP 2017, and ACL 2022, and multiple research awards from industry. 
   Abstract: Large language models (LLMs) have utterly transformed the field of natural language processing. However, training LLMs comes at a massive financial and environmental cost, making them out of reach of academic research labs. Meanwhile, these models are costly to update and brittle in leaking private text data. In this talk, I will argue that retrieval-based language models are a promising way of scaling LMs and overcoming the above limitations. I will discuss recent developments of retrieval-based language models, compare their pros and cons, and show their benefits in interpretability, adaptability, and privacy. In particular, I will introduce a new training approach for retrieval-based language models called TRIME (TRaining with In-batch MEmories), which can train LMs to retrieve better from the text during inference.
-- Title: 'Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training'
+- Title: '(KeyNote Talk) Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training'
   Time: 11:35AM - 12:05PM
   Presenter: You Yang
   Is_paper: false
@@ -103,7 +103,7 @@
   Time: 12:30PM - 01:30PM
   Whole_line: true
   
-- Title: Efficient Identify Event Causality with Knowledge and Analogy
+- Title: (KeyNote Talk) Efficient Identify Event Causality with Knowledge and Analogy
   Time: 01:30PM - 02:00PM
   Presenter: Bang Liu
   Is_paper: false
@@ -137,28 +137,28 @@
   Time: 03:00PM - 03:30PM
   Whole_line: true
 
-- Title: Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval
+- Title: (KeyNote Talk) Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval
   Time: 03:30PM - 04:05PM
   Presenter: Graham Neubig
   Is_paper: false
   Whole_line: false
   Bio: Graham Neubig is an associate professor at the Language Technologies Institute of Carnegie Mellon University and CEO of Inspired Cognition. His research focuses on natural language processing, with a focus on multilingual NLP, natural language interfaces to computers, and machine learning methods for NLP system building and evaluation. His final goal is that every person in the world should able to communicate with each-other, and with computers in their own language. He also contributes to making NLP research more accessible through open publishing of research papers, advanced NLP course materials and video lectures, and open-source software, all of which are available on his web site.
   Abstract: 'Retrieval-based language models (R-LM) model the probability of natural language text by combining a standard language model (LM) with examples retrieved from an external datastore at test time. While effective, a major bottleneck of using these models in practice is the computationally costly datastore search, which can be performed as frequently as every time step. In this paper, we present RetoMaton - retrieval automaton - which approximates the datastore search, based on (1) saving pointers between consecutive datastore entries, and (2) clustering of entries into "states". This effectively results in a weighted finite automaton built on top of the datastore, instead of representing the datastore as a flat list. The creation of the automaton is unsupervised, and a RetoMaton can be constructed from any text collection: either the original training corpus or from another domain. Traversing this automaton at inference time, in parallel to the LM inference, reduces its perplexity by up to 1.85, or alternatively saves up to 83% of the nearest neighbor searches over kNN-LM (Khandelwal et al., 2020) without hurting perplexity.'
-- Title: Do we still need inductive biases after Transformer language models
+- Title: (KeyNote Talk) Do we still need inductive biases after Transformer language models
   Time: 04:05PM - 04:35PM
   Presenter: Siva Reddy
   Is_paper: false
   Whole_line: false
   Bio: Siva Reddy is an Assistant Professor in the School of Computer Science and Linguistics at McGill University. He is a Facebook CIFAR AI Chair and a core faculty member of Mila Quebec AI Institute. Before McGill, he was a postdoctoral researcher at Stanford University. He received his PhD from the University of Edinburgh in 2017, where he was a Google PhD Fellow. His research focuses on representation learning for language that facilitates systematic generalization, reasoning and conversational modeling. He received the 2020 VentureBeat AI Innovation Award in NLP, and the best paper award at EMNLP 2021.
   Abstract: 'In this talk, I will explore the role of inductive biases when fine-tuning large Transformer language models in three different scenarios: when output space is structured, for example, semantic parsing from language to code; when performing multi-task learning where tasks may share some latent structure, e.g., different semantic tasks like question answering and text entailment may share common reasoning skills; when the input involves a higher-order (latent) structure such as negation. It is not always the case that inductive biases help. Come with your wisest/wildest answers.'
-- Title: 8-bit Methods for Efficient Deep Learning
+- Title: (KeyNote Talk) 8-bit Methods for Efficient Deep Learning
   Time: 04:35PM - 05:05PM
   Presenter: Tim Dettmers
   Is_paper: false
   Whole_line: false
   Bio: Tim Dettmers is a 5th year PhD student advised by Luke Zettlemoyer at the University of Washington in Seattle. He holds degrees in applied math and computer science and has a background in industrial automation. His primary research revolves around making neural networks more efficient, focusing on the sparsification and quantization of language models. Tim runs a blog about deep learning, GPUs, and PhD life at timdettmers.com.
   Abstract: Large language models are effective tools for many tasks but are difficult to train and inference due to their size. Moving from 32-bit models to 16-bit models resulted in considerable efficiency gains that made training and inference of large models easier. Can we train and inference in 8-bit to make further gains? In this talk, I will show that 8-bit inference and training can be used without degrading performance while improving efficiency. To make 8-bit methods work, it is essential to understand how quantization precision affects model performance and training stability as we scale the model size. I will talk about how these factors change with scale and how we need to adjust 8-bit methods to make them work. In particular, I will speak about 8-bit optimizers for training and Int8 inference for large language models with up to 175B parameters. These methods make training and inference more efficient and make large models more accessible to researchers.
-- Title: Efficient Controllable Generative Models for Music and Performance Synthesis
+- Title: (KeyNote Talk) Efficient Controllable Generative Models for Music and Performance Synthesis
   Time: 05:05PM - 05:35PM
   Presenter: Anna Huang
   Is_paper: false
