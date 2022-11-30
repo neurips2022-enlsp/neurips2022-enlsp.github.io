@@ -10,7 +10,7 @@ layout: home
 <div style="font-family: 'Source Sans Pro', sans-serif; background: url('/images/banner_no_text.png') no-repeat; background-size: cover; user-select: none;">
 	<center>
 		<h2 class="blackpar_title" >The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
-		<h3 class="blackpar_title">Friday Dec. 2nd 2022, New Orleans <br> <b>In-person</b> (Room 287) and <b>Virtual</b> </h3>
+		<h3 class="blackpar_title">Friday Dec. 2nd 2022, New Orleans <br> <b>In-person</b> (Ballroom C on level 2) and <b>Virtual</b> </h3>
 	</center>
 </div>
 <br>
