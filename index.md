@@ -148,7 +148,7 @@ Authors can submit up to 100 MB of supplementary materials separately. Authors a
 </p>
 
 <!-- Schedule -->
-<h2 class="blackpar_title" id="schedule">Schedule (EST time zone - New York/Montreal/Toronto)</h2>
+<h2 class="blackpar_title" id="schedule">Schedule (New Orleans Time Zone)</h2>
 <p>
 {% include schedule.html %}
 </p>
