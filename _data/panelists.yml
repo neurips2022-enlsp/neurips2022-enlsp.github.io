@@ -1,25 +1,5 @@
 - num_row: 1
   speakers:
-    - name: Mohammad Norouzi
-      affiliation: Google Brain
-      photo: norouzi.jpg
-    - name: Vikrant Singh Tomar
-      affiliation: Fluent.AI
-      photo: Vikrant_Singh.jfif
-    - name: Rahul Gupta
-      affiliation: Amazon Alexa
-      photo: rahul_gupta.jfif
-    - name: Boxing Chen
-      affiliation: 
-      photo: boxing.jpg
-- num_row: 2
-  speakers:
-    - name: Marjan Ghazvininejad 
-      affiliation: Meta
-      photo: marjan_ghazvininejad.jfif
-    - name: Yu Cheng
-      affiliation: Microsoft
-      photo: yu_cheng.jfif
-    - name: Jiahao Sun
-      affiliation: RBC
-      photo: Jiahao_Sun.jfif
+    - name: Nazneen Rajan
+      affiliation: Huggingface
+      photo: Nazneen_Rajan.jpg
