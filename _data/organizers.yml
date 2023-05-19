@@ -3,5 +3,23 @@
     - name: Mehdi Rezagholizadeh
       affiliation: Huawei Noah's Ark Lab
       photo: Mehdi_Rezagholizadeh.jpg
-      scholar_link: https://scholar.google.com/citations?user=MvXlF6kAAAAJ&hl=en
-      linkedin_link: https://www.linkedin.com/in/mehdi-rezagholizadeh-61212346
+    - name: Peyman Passban
+      affiliation: BenchSci
+      photo: peyman_passban.jpg
+    - name: Yue Dong
+      affiliation: University of California
+      photo: Yue_Dong.jpg
+    - name: Lili Mou
+      affiliation: University of Alberta
+      photo: lili_mou.jpg
+- num_row: 1
+  organizers:
+    - name: Pascal Poupart
+      affiliation: University of Waterloo
+      photo: pascal_poupart.jpg
+    - name: Ali Ghodsi
+      affiliation: University of Waterloo
+      photo: ali_ghodsi.jpg
+    - name: Qun Liu
+      affiliation: Huawei Noah's Ark Lab
+      photo: qun_liu.png

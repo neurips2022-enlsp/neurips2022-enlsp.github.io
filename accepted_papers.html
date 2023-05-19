@@ -1,0 +1,94 @@
+---
+#
+# By default, content added below the "---" mark will appear in the home page
+# between the top bar and the list of recent posts.
+# To change the home page layout, edit the _layouts/home.html file.
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
+---
+{% assign rows = site.data.accepted_papers %}
+<script>
+$("#pop").on("click", function() {
+   $('#imagepreview').attr('src', $('#imageresource').attr('src')); // here asign the image to the modal when the user click the enlarge link
+   $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+
+</script>
+<style>
+.img2zoom:hover{
+cursor: zoom-in;
+}
+
+</style>
+{% for row in rows %}
+<div class="modal fade" id="paper_{{row.id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<b>Title:</b> {{ row.title }}
+				<br>
+				<b>Authors:</b><p class="par_panel_perso">{{ row.authors }}</p>
+				<b>Abstract:</b><p class="par_panel_perso">{{ row.abstract }}</p>
+			</div>
+			<div class="modal-footer">
+				<a href="/papers/paper_{{row.id}}.pdf" download class="btn btn-primary active" aria-current="page">Download PDF</a>
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+{% endfor %}
+
+<h2>Accepted papers</h2>
+
+
+
+
+
+<div class="row">
+	<table id="customers">
+		
+		{% for row in rows %}
+
+		<tr>
+			<td>
+				<a href="" data-bs-toggle="modal" data-bs-target="#paper_{{row.id}}">{{ row.title }}</a>
+			</td>
+			<td><center><a href="/papers/paper_{{row.id}}.pdf" download><i class="bi bi-file-pdf" style="font-size: 1.4rem;"></i></a></center></td>
+		</tr>
+		{% endfor %}
+
+	</table>
+</div>
+
+
+
+<table>
+	<tr>
+		<td>
+			<img src="images/Best_Paper_ENLSP_2022.png" width="100%" height="auto" scrolling="no">
+			<br>
+			<center>
+				<a href="/papers/paper_34.pdf" download><i class="bi bi-file-pdf" style="font-size: 2rem;"></i></a>
+				<a href="/images/BEST_PAPER_POSTER.png" download><i class="bi bi-file-earmark-image" style="font-size: 2rem;"></i></a>
+			</center>
+		</td>
+		<td>
+			<img src="images/Best_Poster_ENLSP_2022.png" width="100%" height="auto" scrolling="no">
+			<br>
+			<center>
+				<a href="/papers/paper_10.pdf" download><i class="bi bi-file-pdf" style="font-size: 2rem;"></i></a>
+				<a href="/images/BEST_POSTER_POSTER.png" download><i class="bi bi-file-earmark-image" style="font-size: 2rem;"></i></a>
+			</center>
+		</td>
+		<td>
+			<img src="images/Outstanding_Paper_ENLSP_2022.png" width="100%" height="auto" scrolling="no">
+			<br>
+			<center>
+				<a href="/papers/paper_8.pdf" download><i class="bi bi-file-pdf" style="font-size: 2rem;"></i></a>
+				<a href="/images/OUTSTANDING_PAPER_POSTER.png" download><i class="bi bi-file-earmark-image" style="font-size: 2rem;"></i></a>
+			</center>
+		</td>
+	</tr>
+</table>

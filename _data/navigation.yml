@@ -12,9 +12,9 @@
   url: /index.html#schedule 
 - title: Technical committee
   url: /index.html#technical_committee 
-- title: Previous versions
-  sublinks:
-    - title: ENLSP2021
-      url: https://neurips2021-nlp.github.io/
-    - title: ENLSP2022
-      url: https://neurips2022-enlsp.github.io/
+- title: Accepted papers
+  url: /accepted_papers.html
+- title: Poster session
+  url: https://app.gather.town/app/Hb8GGwi2XlLAbKzc/ENLSP2022
+- title: ENLSP2021
+  url: https://neurips2021-nlp.github.io/

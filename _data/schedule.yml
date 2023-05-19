@@ -1,0 +1,170 @@
+- Title: Breakfast
+  Time: 07:30AM - 07:50AM
+  Whole_line: true
+  
+- Title: Opening Speech
+  Time: 07:50AM - 08:00AM
+  Whole_line: false
+  Presenter:  
+  
+- Title: (KeyNote Talk) Fine-grained Interactive Vision Language Pre-training
+  Time: 08:00AM - 08:30AM
+  Presenter: Lu Hou
+  Is_paper: false
+  Whole_line: false
+  Bio: Dr. Lu HOU is a researcher at the Speech and Semantics Lab in Huawei Noah's Ark Lab. She obtained Ph.D. from Hong Kong University of Science and Technology in 2019, under the supervision of Prof. James T. Kwok. Her current research interests include compression and acceleration of deep neural networks, natural language processing, and deep learning optimization.
+  Abstract: Unsupervised large-scale vision-language pre-training has shown promising advances on various downstream tasks. Existing methods often model the cross-modal interaction either via the similarity of the global feature of each modality which misses sufficient information, or finer-grained interactions using cross/self-attention upon visual and textual tokens. However, cross/self-attention suffers from inferior efficiency in both training and inference. In this talk, we introduce a large-scale Fine-grained Interactive Language-Image Pre-training method to achieve finer-level alignment through a cross-modal late interaction mechanism, which uses a token-wise maximum similarity between visual and textual tokens to guide the contrastive objective. The resultant model FILIP and Wukong achieve good performance on multiple downstream vision-language tasks, while maintaining the inference efficiency of dual-stream models. The visualization on word-patch alignment further shows that FILIP can learn meaningful fine-grained features with promising localization ability. Furthermore, we release a 100 million Chinese image-text pair dataset for pre-training.
+- Title: (KeyNote Talk) Efficiency Tradeoffs in the Design of Neural Search Systems
+  Time: 08:30AM - 09:05AM
+  Presenter: Jimmy Lin
+  Is_paper: false
+  Whole_line: false
+  Bio: 'Professor Jimmy Lin holds the David R. Cheriton Chair in the David R. Cheriton School of Computer Science at the University of Waterloo. For a quarter of a century, his research has been driven by the quest to develop methods and build tools that connect users to  relevant information. His work mostly lies at the intersection of information retrieval and natural language processing, with a focus on two fundamental challenges: those of understanding and scale.'
+  Abstract: Information retrieval (IR) - the challenge of connecting users to previously stored relevant information - has received renewed  attention of late due to the advent of pretrained transformer-based  models. In recent years, we have seen the introduction of many new  types of models (e.g., dense and sparse learned representations,  cross-encoders, etc.) in the context of techniques that have been around for decades (e.g., BM25, multi-stage ranking, etc.). What does it mean for a search system to be efficient? In this talk, I'll try to sort through efficiency tradeoffs in the design and construction of end-to-end search systems, organized along the dimensions of time, space, and cost.
+- Title: (KeyNote Talk) Last Advances in End-to-End Speech Recognition
+  Time: 09:05AM - 09:35AM
+  Presenter: Tara Sainath
+  Is_paper: false
+  Whole_line: false
+  Bio: Tara Sainath received her S.B., M.Eng and PhD in Electrical Engineering and Computer Science (EECS) from MIT. After her PhD, she spent 5 years at the Speech and Language Algorithms group at IBM T.J. Watson Research Center, before joining Google Research. She has served as a Program Chair for ICLR in 2017 and 2018. Also, she has co-organized numerous special sessions and workshops, including Interspeech 2010, ICML 2013, Interspeech 2016, ICML 2017, Interspeech 2019, NeurIPS 2020. In addition, she has served as a member of the IEEE Speech and Language Processing Technical Committee (SLTC) as well as the Associate Editor for IEEE/ACM Transactions on Audio, Speech, and Language Processing. She is an IEEE and ISCA Fellow and the recipient of the 2021 IEEE SPS Industrial Innovation Award. She is currently a Principal Research Scientist at Google, working on applications of deep neural networks for automatic speech recognition.
+  Abstract: In this talk, we will discuss a multi-year research effort with end-to-end models for speech recognition. We will also discuss how we translated these research findings into productionizable models that are used on our Pixel phones.
+  
+- Title: Collective Knowledge Graph Completion with Mutual Knowledge Distillation
+  Time: 09:35AM - 09:45AM
+  Presenter: <ul><li>Weihang Zhang</li><li>Ovidiu Serban</li><li>Jiahao Sun</li><li>Yike Guo</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Anonymous
+  Abstract: Knowledge graph completion (KGC), the task that aims at predicting missing information based on the already existing relational data inside a knowledge graph(KG), has drawn significant attention in the recent years. However, predictive power of KGC methods is often limited by the completeness of the existing knowledge graphs. In monolingual and multilingual settings, KGs from different sources and languages are potentially complementary to each other. In this paper, we study the problem of multi-KG completion, where we focus on maximizing the collective knowledge from different KGs to alleviate the incompleteness on individual KGs. Specifically, we propose a novel method called CKGC-MKD that uses augmented CompGCN-based encoder models on both individual KGs and a large connected KG in which seed alignments between KGs are regarded as edges for message propagation. Additional mutual knowledge distillation are employed to maximize the knowledge transfer between the 'global' connected KG and the 'local' individual KGs. Experimental results on multilingual datasets has shown that our method outperforms all state-of-the-art models.
+- Title: Attribute Controlled Dialogue Prompting
+  Time: 09:45AM - 09:56AM
+  Presenter: <ul><li>Runcheng Liu</li><li>Ahmad Rashid</li><li>Ivan Kobyzev</li><li>Mehdi Rezaghoizadeh</li><li>Pascal Poupart</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Anonymous
+  Abstract: Prompt-tuning has become an increasingly popular parameter-efficient method for steering large pretrained language models to downstream tasks. However, both discrete prompting and continuous prompting assume fixed prompts for all data samples within a task, neglecting the fact that inputs vary greatly in some tasks such as open-domain dialogue generation. In this paper, we present a novel, instance-specific prompt-tuning algorithm for dialogue generation. Specifically, we generate prompts based on instance-level control code, rather than the conversation history, to explore their impact on controlled dialogue generation. Experiments on popular open-domain dialogue datasets, evaluated with both automated metrics and human evaluation, demonstrate that our method is superior to prompting baselines and comparable to fine-tuning with only 5%-6% of total parameters.
+- Title: Fast DistilBERT on CPUs
+  Time: 09:56AM - 10:05AM
+  Presenter: <ul><li>Haihao Shen</li><li>Ofir Zafrir</li><li>Bo Dong</li><li>Hengyu Meng</li><li>Xinyu Ye</li><li>Zhe Wang</li><li>Yi Ding</li><li>Hanwen Chang</li><li>Guy Boudoukh</li><li>Moshe Wasserblat</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Haihao Shen, Ofir Zafrir, Bo Dong, Hengyu Meng, Xinyu Ye, Zhe Wang, Yi Ding, Hanwen Chang, Guy Boudoukh, Moshe Wasserblat
+  Abstract: Transformer-based language models have become the standard approach to solving natural language processing tasks. However, industry adoption usually requires the maximum throughput to comply with certain latency constraints that prevents Transformer models from being used in production. To address this gap, model compression techniques such as quantization and pruning may be used to improve inference efficiency. However, these compression techniques require specialized software to apply and deploy at scale. In this work, we propose a new pipeline for creating and running Fast Transformer models on CPUs, utilizing hardware-aware pruning, knowledge distillation, quantization, and our own Transformer inference runtime engine with optimized kernels for sparse and quantized operators. We demonstrate the efficiency of our pipeline by creating a Fast DistilBERT model showing minimal accuracy loss on the question-answering SQuADv1.1 benchmark, and throughput results under typical production constraints and environments. Our results outperform existing state-of-the-art Neural Magic's DeepSparse runtime performance by up to 50% and up to 4.1x performance speedup over ONNX Runtime.
+  
+- Title: Morning Break and Poster Session 1
+  Time: 10:00AM - 10:30AM
+  Whole_line: true
+  
+- Title: '(KeyNote Talk) SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models' 
+  Time: 10:30AM - 11:05AM
+  Presenter: Song Han
+  Is_paper: false
+  Whole_line: false
+  Bio: 'Song Han is an associate professor at MIT EECS. He received his PhD degree from Stanford University. He proposed "deep compression" technique that’s widely used by industry for efficient AI computing, and "Efficient Inference Engine" that first brought weight sparsity to neural network accelerators. His team’s work on hardware-aware neural architecture search (once-for-all network, MCUNet) brought deep learning to IoT devices that has only 256KB memory, and enables learning on the edge. Song received the NSF CAREER Award for “efficient algorithms and hardware for accelerated machine learning” and was named “35 Innovators Under 35” by MIT Technology Review.'
+  Abstract: Large language models (LLMs) show excellent performance but are compute- and memory-intensive. Quantization can reduce memory and accelerate inference. However, for LLMs beyond 100 billion parameters, existing methods cannot maintain accuracy due to outliers or do not run efficiently on hardware. I’ll present SmoothQuant, a training-free, accuracy-preserving, and general-purpose post-training quantization (PTQ) solution to enable 8-bit weight, 8-bit activation (W8A8) quantization for LLMs, including OPT-175B, BLOOM-176B and GLM-130B, achieving faster inference speed with half the number of GPUs. We hope SmoothQuant can inspire economic deployment of LLMs in the future.
+- Title: (KeyNote Talk) Building Language Models Based on Retrieval
+  Time: 11:05AM - 11:35AM
+  Presenter: Danqi Chen
+  Is_paper: false
+  Whole_line: false
+  Bio: Danqi Chen is an Assistant Professor of Computer Science at Princeton University and co-leads the Princeton NLP Group. Her recent research focuses on training, adapting, and understanding large language models, and developing scalable and generalizable NLP systems for question answering, information extraction, and conversational agents. Before joining Princeton, Danqi worked as a visiting scientist at Facebook AI Research. She received her Ph.D. from Stanford University (2018) and B.E. from Tsinghua University (2012), both in Computer Science. Danqi is a recipient of a Sloan Fellowship, a Samsung AI Researcher of the Year award, outstanding paper awards from ACL 2016, EMNLP 2017, and ACL 2022, and multiple research awards from industry. 
+  Abstract: Large language models (LLMs) have utterly transformed the field of natural language processing. However, training LLMs comes at a massive financial and environmental cost, making them out of reach of academic research labs. Meanwhile, these models are costly to update and brittle in leaking private text data. In this talk, I will argue that retrieval-based language models are a promising way of scaling LMs and overcoming the above limitations. I will discuss recent developments of retrieval-based language models, compare their pros and cons, and show their benefits in interpretability, adaptability, and privacy. In particular, I will introduce a new training approach for retrieval-based language models called TRIME (TRaining with In-batch MEmories), which can train LMs to retrieve better from the text during inference.
+- Title: '(KeyNote Talk) Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training'
+  Time: 11:35AM - 12:05PM
+  Presenter: You Yang
+  Is_paper: false
+  Whole_line: false
+  Bio: Yang You is a Presidential Young Professor at National University of Singapore. He is on an early career track at NUS for exceptional young academic talents with great potential to excel. He received his PhD in Computer Science from UC Berkeley. His advisor is Prof. James Demmel, who was the former chair of the Computer Science Division and EECS Department. Yang You's research interests include Parallel/Distributed Algorithms, High Performance Computing, and Machine Learning. The focus of his current research is scaling up deep neural networks training on distributed systems or supercomputers. In 2017, his team broke the world record of ImageNet training speed, which was covered by the technology media like NSF, ScienceDaily, Science NewsLine, and i-programmer. In 2019, his team broke the world record of BERT training speed. The BERT training techniques have been used by many tech giants like Google, Microsoft, and NVIDIA. Yang You’s LARS and LAMB optimizers are available in industry benchmark MLPerf. He is a winner of IPDPS 2015 Best Paper Award (0.8%), ICPP 2018 Best Paper Award (0.3%) and ACM/IEEE George Michael HPC Fellowship. Yang You is a Siebel Scholar and a winner of Lotfi A. Zadeh Prize. Yang You was nominated by UC Berkeley for ACM Doctoral Dissertation Award (2 out of 81 Berkeley EECS PhD students graduated in 2020). He also made Forbes 30 Under 30 Asia list (2021) and won IEEE CS TCHPC Early Career Researchers Award for Excellence in High Performance Computing.
+  Abstract: The Transformer architecture has improved the performance of deep learning models in domains such as Computer Vision and Natural Language Processing. Together with better performance come larger model sizes. This imposes challenges to the memory wall of the current accelerator hardware such as GPU. It is never ideal to train large models such as Vision Transformer, BERT, and GPT on a single GPU or a single machine. There is an urgent demand to train models in a distributed environment. However, distributed training, especially model parallelism, often requires domain expertise in computer systems and architecture. It remains a challenge for AI researchers to implement complex distributed training solutions for their models. To solve this problem, we introduce Colossal-AI, which is a unified parallel training system designed to seamlessly integrate different paradigms of parallelization techniques including data parallelism, pipeline parallelism, multiple tensor parallelism, and sequence parallelism. Colossal-AI aims to support the AI community to write distributed models in the same way as how they write models normally. This allows them to focus on developing the model architecture and separates the concerns of distributed training from the development process. Colossal-AI is able to achieve 2x speedup over state-of-the-art distributed systems for GPT model training.
+  
+- Title: Efficient Few-Shot Learning Without Prompts
+  Time: 12:05PM - 12:15PM
+  Presenter: <ul><li>Oren Pereg</li><li>Daniel Korat</li><li>Moshe Wasserblat</li><li>Lewis Tunstall</li><li>Unso Eun Seo Jo</li><li>Luke Bates</li><li>Nils Reimers</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Oren Pereg, Daniel Korat, Moshe Wasserblat, Lewis Tunstall, Unso Eun Seo Jo. Luke Bates, Nils Reimers
+  Abstract: Recent few-shot learning methods, such as parameter-efficient fine-tuning (PEFT) and pattern exploiting training (PET), have achieved impressive results in label-scarce settings. However, they are difficult to employ since they are highly sensitive to handcrafted prompts, and typically require billion-parameter language models to achieve high accuracy. To address these shortcomings, we propose SetFit (Sentence Transformer Fine-tuning), an efficient and prompt-free framework for few-shot fine-tuning of Sentence Transformers (ST). SetFit works by first fine-tuning a pretrained ST on a small number of labeled text pairs, in a contrastive Siamese manner. The resulting model is then used to generate rich text embeddings, which are used to train a classification head. This simple framework requires no prompts or verbalizers, and achieves high accuracy with orders of magnitude less parameters and runtime than existing techniques. Our experiments show that SetFit achieves results competitive with PEFT and PET techniques, and outperforms them on a variety of classification tasks.
+- Title: PCFG-based Natural Language Interface Improves Generalization for Controlled Text Generation
+  Time: 12:15PM - 12:25PM
+  Presenter: <ul><li>Jingyu Zhang</li><li>Jim Glass</li><li>Tianxing He</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Jingyu Zhang, James Glass, Tianxing He
+  Abstract: Existing work on controlled text generation (CTG) assumes a control interface of categorical attributes. In this work, we propose a natural language interface, where we craft a PCFG to embed the control attributes into natural language commands and propose variants of existing CTG models that take commands as input. We design tailored experiments to test model's generalization abilities. The results show our PCFG-based command generation approach is effective for handling unseen commands compared to fix-set templates, and our proposed NL models can effectively generalize to unseen attributes.
+- Title: 'PromptDA: Label-guided Data Augmentation for Prompt-based Few Shot Learners'
+  Time: 12:25PM - 12:35PM
+  Presenter: <ul><li>Canyu Chen</li><li>Kai Shu</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Canyu Chen, Kai Shu
+  Abstract: 'Recent advances in large pre-trained language models (PLMs) lead to impressive gains on natural language understanding (NLU) tasks with task-specific fine-tuning. However, directly fine-tuning PLMs heavily relies on sufficient labeled training instances, which are usually hard to obtain. Prompt-based tuning on PLMs has shown to be powerful for various downstream few-shot tasks. Existing works studying prompt-based tuning for few-shot NLU tasks mainly focus on deriving proper label words with a verbalizer or generating prompt templates to elicit semantics from PLMs. In addition, conventional data augmentation strategies such as synonym substitution are also widely adopted in low-resource scenarios. However, the improvements they bring to prompt-based few-shot learning have been demonstrated to be marginal. Thus, an important research question arises as follows: how to design effective data augmentation methods for prompt-based few-shot tuning? To this end, considering the label semantics are essential in prompt-based tuning, we propose a novel label-guided data augmentation framework PromptDA, which exploits the enriched label semantic information for data augmentation. Extensive experiment results on few-shot text classification tasks show that our proposed framework achieves superior performances by effectively leveraging label semantics and data augmentation for natural language understanding.'
+  
+- Title: Lunch Break and Virtual Poster Session
+  Time: 12:30PM - 01:30PM
+  Whole_line: true
+  
+- Title: (KeyNote Talk) Efficient Identify Event Causality with Knowledge and Analogy
+  Time: 01:30PM - 02:00PM
+  Presenter: Bang Liu
+  Is_paper: false
+  Whole_line: false
+  Bio: Bang Liu is an Assistant Professor in the Department of Computer Science and Operations Research (DIRO) at the University of Montreal. He is a core member of the RALI laboratory (Applied Research in Computer Linguistics) of DIRO, an associate member of Mila – Quebec Artificial Intelligence Institute, and a Canada CIFAR AI (CCAI) Chair. His research interests primarily lie in the areas of natural language processing, data mining, multimodal and embodied learning, and AI + X (e.g., health, material science).
+  Abstract: Event causality identification (ECI) is an important task in natural language processing (NLP) which aims to identify the causal relationships between events in text pieces, i.e., predict whether one event causes another one to happen. Due to the diversity of real-world causality events and difficulty in obtaining sufficient training data, existing ECI approaches have poor generalizability and struggle to identify the relation between seldom-seen events. We propose to utilize both external knowledge and internal analogy to improve ECI. By utilizing a commonsense knowledge graph to reveal the commonalities or associations between different events, and retrieving similar events as analogy examples to glean useful experiences from such analogous neighbors, we can better identify the relationship between a new event pair. Extensive evaluations show that our approach significantly outperforms other baseline methods.
+
+- Title: Interactive Industrial Panel
+  Time: 02:00PM - 02:50PM
+  Presenter: <ul><li>Boxing Chen</li><li>Jiahao Sun</li><li>Vikrant Singh Tomar</li><li>Marjan Ghazvininejad</li><li>Yu Cheng</li><li>Mohammad Norouzi</li><li>Rahul Gupta</li></ul>
+  Is_paper: false
+  Whole_line: false
+
+
+- Title: Improving the Robustness of DistilHuBERT to Unseen Noisy Conditions via Data Augmentation, Curriculum Learning, and Multi-Task Enhancement
+  Time: 02:50PM - 02:59PM
+  Presenter: <ul><li>Heitor R Guimarães</li><li>Arthur S Pimentel</li><li>Anderson ARA R. Avila</li><li>Mehdi Rezagholizadeh</li><li>Tiago H Falk</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Heitor R Guimarães, Arthur S Pimentel, Anderson ARA R. Avila, Mehdi Rezagholizadeh, Tiago H Falk
+  Abstract: 'Self-supervised speech representation learning aims to extract meaningful factors from the speech signal that can later be used across different downstream tasks, such as speech and/or emotion recognition. Existing models, such as HuBERT, however, can be fairly large thus may not be suitable for edge speech applications. Moreover, realistic applications typically involve speech corrupted by noise and room reverberation, hence models need to provide representations that are robust to such environmental factors. In this study, we build on the so-called DistilHuBERT model, which distils HuBERT to a fraction of its original size, with three modifications, namely: (i) augment the training data with noise and reverberation, while the student model needs to distill the clean representations from the teacher model; (ii) introduce a curriculum learning approach where increasing levels of noise are introduced as the model trains, thus helping with convergence and with the creation of more robust representations; and (iii) introduce a multi-task learning approach where the model also reconstructs the clean waveform jointly with the distillation task, thus also acting as an enhancement step to ensure additional environment robustness to the representation. Experiments on three SUPERB tasks show the advantages of the proposed method not only relative to the original DistilHuBERT, but also to the original HuBERT, thus showing the advantages of the proposed method for "in the wild" edge speech applications.'
+- Title: Gradient Knowledge Distillation for Pre-trained Language Models
+  Time: 02:59PM - 03:05PM
+  Presenter: <ul><li>Lean Wang</li><li>Lei Li</li><li>Xu Sun</li></ul>
+  Is_paper: true
+  Whole_line: false
+  Authors: Lean Wang, Lei Li, Xu Sun
+  Abstract: Knowledge distillation (KD) is an effective framework to transfer knowledge from a large-scale teacher to a compact yet well-performing student. Previous KD practices for pre-trained language models transfer knowledge by aligning instance-wise outputs between the teacher and the student, while neglecting an important knowledge source, i.e., the gradient of the teacher. The gradient characterizes how the teacher responds to changes in inputs, which we assume is beneficial for the student to better approximate the underlying mapping function of the teacher. Therefore, we propose Gradient Knowledge Distillation (GKD) to incorporate the gradient alignment objective into the distillation process.Experimental results show that GKD outperforms previous KD methods in the student's performance. Further analysis shows that incorporating gradient knowledge makes the student behave more consistently with the teacher, improving the interpretability greatly.
+
+- Title: Break and Poster Session II
+  Time: 03:00PM - 03:30PM
+  Whole_line: true
+
+- Title: (KeyNote Talk) Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval
+  Time: 03:30PM - 04:05PM
+  Presenter: Graham Neubig
+  Is_paper: false
+  Whole_line: false
+  Bio: Graham Neubig is an associate professor at the Language Technologies Institute of Carnegie Mellon University and CEO of Inspired Cognition. His research focuses on natural language processing, with a focus on multilingual NLP, natural language interfaces to computers, and machine learning methods for NLP system building and evaluation. His final goal is that every person in the world should able to communicate with each-other, and with computers in their own language. He also contributes to making NLP research more accessible through open publishing of research papers, advanced NLP course materials and video lectures, and open-source software, all of which are available on his web site.
+  Abstract: 'Retrieval-based language models (R-LM) model the probability of natural language text by combining a standard language model (LM) with examples retrieved from an external datastore at test time. While effective, a major bottleneck of using these models in practice is the computationally costly datastore search, which can be performed as frequently as every time step. In this paper, we present RetoMaton - retrieval automaton - which approximates the datastore search, based on (1) saving pointers between consecutive datastore entries, and (2) clustering of entries into "states". This effectively results in a weighted finite automaton built on top of the datastore, instead of representing the datastore as a flat list. The creation of the automaton is unsupervised, and a RetoMaton can be constructed from any text collection: either the original training corpus or from another domain. Traversing this automaton at inference time, in parallel to the LM inference, reduces its perplexity by up to 1.85, or alternatively saves up to 83% of the nearest neighbor searches over kNN-LM (Khandelwal et al., 2020) without hurting perplexity.'
+- Title: (KeyNote Talk) Do we still need inductive biases after Transformer language models
+  Time: 04:05PM - 04:35PM
+  Presenter: Siva Reddy
+  Is_paper: false
+  Whole_line: false
+  Bio: Siva Reddy is an Assistant Professor in the School of Computer Science and Linguistics at McGill University. He is a Facebook CIFAR AI Chair and a core faculty member of Mila Quebec AI Institute. Before McGill, he was a postdoctoral researcher at Stanford University. He received his PhD from the University of Edinburgh in 2017, where he was a Google PhD Fellow. His research focuses on representation learning for language that facilitates systematic generalization, reasoning and conversational modeling. He received the 2020 VentureBeat AI Innovation Award in NLP, and the best paper award at EMNLP 2021.
+  Abstract: 'In this talk, I will explore the role of inductive biases when fine-tuning large Transformer language models in three different scenarios: when output space is structured, for example, semantic parsing from language to code; when performing multi-task learning where tasks may share some latent structure, e.g., different semantic tasks like question answering and text entailment may share common reasoning skills; when the input involves a higher-order (latent) structure such as negation. It is not always the case that inductive biases help. Come with your wisest/wildest answers.'
+- Title: (KeyNote Talk) 8-bit Methods for Efficient Deep Learning
+  Time: 04:35PM - 05:05PM
+  Presenter: Tim Dettmers
+  Is_paper: false
+  Whole_line: false
+  Bio: Tim Dettmers is a 5th year PhD student advised by Luke Zettlemoyer at the University of Washington in Seattle. He holds degrees in applied math and computer science and has a background in industrial automation. His primary research revolves around making neural networks more efficient, focusing on the sparsification and quantization of language models. Tim runs a blog about deep learning, GPUs, and PhD life at timdettmers.com.
+  Abstract: Large language models are effective tools for many tasks but are difficult to train and inference due to their size. Moving from 32-bit models to 16-bit models resulted in considerable efficiency gains that made training and inference of large models easier. Can we train and inference in 8-bit to make further gains? In this talk, I will show that 8-bit inference and training can be used without degrading performance while improving efficiency. To make 8-bit methods work, it is essential to understand how quantization precision affects model performance and training stability as we scale the model size. I will talk about how these factors change with scale and how we need to adjust 8-bit methods to make them work. In particular, I will speak about 8-bit optimizers for training and Int8 inference for large language models with up to 175B parameters. These methods make training and inference more efficient and make large models more accessible to researchers.
+- Title: (KeyNote Talk) Efficient Controllable Generative Models for Music and Performance Synthesis
+  Time: 05:05PM - 05:35PM
+  Presenter: Anna Huang
+  Is_paper: false
+  Whole_line: false
+  Bio: Anna Huang is a Research Scientist at Google Brain, working on the Magenta project. She is also a Canada CIFAR AI Chair at Mila – Québec AI Institute, and an Adjunct Professor at Université de Montréal. Her research focuses on designing generative models and interfaces to support music making and more generally the creative process. Her work is at the intersection of machine learning, human-computer interaction, and music. She is the creator of Music Transformer and Coconet. Coconet was the ML model that powered Google’s first AI Doodle, the Bach Doodle, in two days enabling tens of millions of users around the world to co-compose with ML in their browser. She is an organizer of the international AI Song Contest, and was a guest editor for TISMIR's special issue on AI and Musical Creativity.
+  Abstract: How can we design generative models with structure that both improve the efficiency of models and controllability for users? In this talk, I'll give two examples to illustrate how we could achieve this goal by taking inspiration from the nonlinear and hierarchical structure that underlies the human process of creating music. Generative models of music composition typically assume music is written in a single pass from beginning to end, constraining the user to also follow this unnatural chronological process. To enable a more nonlinear creative workflow, we introduced Coconet (Huang et al., 2017) an Orderless NADE (Uria et al., 2014) like generative model (similar to masked language and visual models) that models all permutations of orderings of breaking down the task of composition. This enables both the model to learn more efficiently from data sequences by traversing it from all directions, and users to put down notes in any order and have the model complete any partial score. Neural audio synthesizers typically synthesize musical performance audio from MIDI end-to-end, resulting in a blackbox that offers few mechanisms for control. To enable detailed user control, we introduced MIDI-DDSP (Wu et al., 2022), a hierarchical model of musical performance synthesis, that breaks down audio synthesis into a three-level hierarchy of notes, performance, and synthesis, analogous to how a creative process involves composers, performers and instruments. Not only does this interpretable hierarchy allow users to intervene at each level or utilize trained priors (performance given notes, synthesis given performance) for creative assistance, it also allows models to leverage these inductive biases to learn more efficiently from data, making it possible to train high-fidelity performance synthesis models from only a few hours of recordings. We hope these examples might encourage researchers to partner with creative practitioners to innovate in modeling, interaction, and human-ai co-creativity. We could see the goal as not only designing generative models that can model and generate creative artifacts well, but also working towards generative agents that we can coordinate and collaborate with in a creative setting. 
+- Title: Best Paper and Poster Award & Closing
+  Time: 05:35PM - 05:45PM
+  Whole_line: true
