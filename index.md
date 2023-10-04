@@ -14,6 +14,14 @@ layout: home
 	</center>
 </div>
 <br>
+<div class="alert alert-danger" role="alert">
+	<center>
+		<i class="bi bi-info-circle"></i>
+		<br>
+		The new version of the worshop is out, you can check it on the new <a href="https://neurips2023-enlsp.github.io/">website</a>.
+	</center>
+</div>
+<br>
 <p>
 The second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop focuses on fundamental and challenging problems to make natural language and speech processing (especially pre-trained models) more efficient in terms of <b>Data, Model, Training, and Inference</b>. The workshop program offers an interactive platform for gathering different experts and talents from academia and industry through invited talks, panel discussion, paper submissions, reviews, interactive posters, oral presentations and a mentorship program. This will be a unique opportunity to address the efficiency issues of current models, build connections, exchange ideas and brainstorm solutions, and foster future collaborations. The topics of this workshop can be of interest for people working on general machine learning, deep learning, optimization, theory and NLP & Speech applications.
 </p>
