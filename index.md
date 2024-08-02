@@ -18,7 +18,7 @@ layout: home
 	<center>
 		<i class="bi bi-info-circle"></i>
 		<br>
-		The new version of the worshop is out, you can check it on the new <a href="https://neurips2023-enlsp.github.io/">website</a>.
+		<b>The latest version of the worshop (NeurIPS ENLSP 2024) is out, you can check it on the new <a href="https://neurips2024-enlsp.github.io/">website</a>.</b>
 	</center>
 </div>
 <br>
